@@ -105,13 +105,26 @@
 
     - 진공관은 디지털논리회로와 기억장치를 위하여 사용됨.
     - IAS 컴퓨터: 폰노이만에 의해 제안됨.
-        MBR이 data는 Arithmetic-Logic circuits로 보내고, command는 MAR로 보냄
+        MBR이 data는 Arithmetic-Logic circuits로 보내고, address는 MAR로 감.
     - IAS Memory Format(40-bit):
           - Number word: 1비트는 sign bit(부호), 나머지 39비트는 data
-          - Instruction word: 20비트씩 나눠서 명령어 2개를 넣음. 20비트에는 작업내용(opcode) 8비트, 주소(address) 12비트로 구분됨.
+          - Instruction word: 20비트씩 나눠서 명령어 2개를 넣음. 20비트에는 명령내용(opcode) 8비트, 주소(address) 12비트로 구분됨.
     - <details>
         <summary>레지스터</summary>
 
-        - `기억장치 버퍼 레지스터(MBR)`:
+        - `기억장치 버퍼 레지스터(MBR)`: 기억장치에 저장 혹은 I/O 유낫애 보내질 단어 저장, 또는 기억장치나 I/O 유닛에서 word를 받아들임.
+        - `기억장치 주소 레지스터(MAR)`: MBR로 쓰여지거나 읽혀질 word가 저장된 기억 장치의 주소 지정.
+        - `명령어 레지스터(IR)`: 실행될 명령어의 8-bit 연산 코드를 저장.
+        - `명령어 버퍼 레지스터(IBR)`: 기억장치로부터 읽혀질 word의 우측에 위치한 명령어 일시적 저장하는데 사용.(40비트에 20비트 명령어 2개있기 떄문)
+        - `프로그램 카운터(PC)`: 기억장치로부터 읽혀질 다음 명령어의 주소 저장.
+        - `누산기(AC) 및 multiplier quotient(MQ)`: ALU 연산에 사용될 오퍼랜드와 결과를 일시적으로 저장하는데 사용.
+        -  
     </details>
+</details>
+
+<br/>
+<br/>
+
+2. <details>
+    <summary>제 2세대:트랜지스터</summary>
 </details>
