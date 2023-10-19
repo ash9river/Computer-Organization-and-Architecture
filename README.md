@@ -1,5 +1,7 @@
 # Computer-Organization-and-Architecture
 
+공부중💤
+<br/>
 
 ## ☑ 컴퓨터시스템 구조론
 
