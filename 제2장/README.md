@@ -129,7 +129,10 @@ $$L=\lambda W$$
   - 단위(평균적인) 명령어당 평균 사이클(하나의 명령어를 처리하는데 몇 사이클이 걸리는지)
 - $I_c$ (instruction count per time):
   - 프로그램당 명령어 수
--  
+- $\tau$ : clock duration
+- $p$ : # of clock cycles for decoding/executing the instr
+- $m$ : # of memory reference
+- $k$ : memory cycle time/ processor cycle time
 
 - `CPI 공식`
  
