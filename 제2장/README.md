@@ -124,27 +124,38 @@ $$L=\lambda W$$
 
 프로그램을 얼마나 빠르게 실행할 수 있을지를 알기 위해서 프로그램 실행시간 추정.
 <br/>
-
+ 
 - $CPI$ (Clock per time):
   - 단위(평균적인) 명령어당 평균 사이클(하나의 명령어를 처리하는데 몇 사이클이 걸리는지)
-- $I_c$ (instruction count per time):
-  - 프로그램당 명령어 수
-- $\tau$ : clock duration
-- $p$ : # of clock cycles for decoding/executing the instr
-- $m$ : # of memory reference
-- $k$ : memory cycle time/ processor cycle time
-
+- $T$ (program execute time): 프로그램 실행 시간
+- $MIPS rate$ (Millions of instructions per second) : 시간당 몇백만개의 명령어를 처리하는지
 - `CPI 공식`
- 
+
+  - $I_c$ (instruction count per time):
+    - 프로그램당 명령어 수
+
 $$
   CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i \times I_i)}{I_c}
      =p+(m \times k)
 $$
 
 - `프로그램 실행 시간 공식`
+  
+  - $\tau$ : clock duration
+  - $p$ : # of clock cycles for decoding/executing the instr
+  - $m$ : # of memory reference
+  - $k$ : memory cycle time/ processor cycle time
 
 $$
   T=I_c \times CPI \times \tau =I_c \times [p+(m \times k)] \times \tau
 $$
 
-- CPU가 하나의 명령어를 처리하는데 걸리는 시간은 CPU가 하나의 명령어를 해석하는데 걸리는 시간($p$)과 메모리를 접근하는데 걸리는 시간($m$ $\times$ $k$)을 합친 것과 같다.
+  - CPU가 하나의 명령어를 처리하는데 걸리는 시간은 CPU가 하나의 명령어를 해석하는데에 걸리는 시간($p$)과 메모리를 접근하는데에 걸리는 시간($m$ $\times$ $k$)의 합과 같다.
+
+- `MIPS rate`
+
+  - $f$ : clock frequency
+    -$$f=\frac{1}{\tau}$$ 
+$$
+  MIPS=\frac{I_c}{T \times 10^6}=\frac{f}{CPI \times 10^6}
+$$
