@@ -146,3 +146,5 @@ $$
 $$
   T=I_c \times CPI \times \tau =I_c \times [p+(m \times k)] \times \tau
 $$
+
+> CPU가 하나의 명령어를 처리하는데 걸리는 시간은 CPU가 하나의 명령어를 해석하는데 걸리는 시간($p$)과 메모리를 접근하는데 걸리는 시간($m$$\times$$k$)을 합친 것과 같다.
