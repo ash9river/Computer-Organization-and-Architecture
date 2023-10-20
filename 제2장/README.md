@@ -82,4 +82,5 @@
 T: 단일 코어 속도 처리 진행시간(single core execute time)
 f: 병렬 처리가 가능한 비율(percentage of parallel processing available)
 N: 멀티코어 개수
+
 $$T=(1-f)T+fT)$$
