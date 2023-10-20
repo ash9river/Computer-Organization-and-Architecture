@@ -122,12 +122,18 @@ $$L=\lambda W$$
 
 ## 컴퓨터 성능의 동작
 
+프로그램을 얼마나 빠르게 실행할 수 있을지를 알기 위해서 프로그램 실행시간 추정.
+<br/>
+
 - $CPI$ (Clock per time):
-  - 단위 명령어당 평균 사이클
+  - 단위(평균적인) 명령어당 평균 사이클(하나의 명령어를 처리하는데 몇 사이클이 걸리는지)
 - $I_c$ (instruction count per time):
   - 프로그램당 명령어 수
 -  
 
 $$
   CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i \times I_i)}{I_c}
+$$
+$$
+  T=I_c \times CPI \times \tau =I_c \times [ p + ( m \times k ) ] \timse \tau
 $$
