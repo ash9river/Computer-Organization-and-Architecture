@@ -188,6 +188,5 @@ $$
 - `조화평균`
 
 $$
-  \frac{N}{\sum_{i=1}^N \frac{1}{x_i}}
-$$
+  \frac{N}{\displaystyle\sum_{i=1}^N \frac{1}{x_i}}
 $$
