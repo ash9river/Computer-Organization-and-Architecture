@@ -123,5 +123,5 @@ $$L=\lambda W$$
 ## 컴퓨터 성능의 동작
 
 $$
-  CPI=\frac{\sum_{i=1}^n(CPI_i I_i)}{I_c}
+  CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i I_i)}{I_c}
 $$
