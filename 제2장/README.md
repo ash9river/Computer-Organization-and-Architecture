@@ -140,5 +140,5 @@ $$
 - `프로그램 실행 시간 공식`
 
 $$
-  T=I_c \times CPI \times \tau =I_c \times [ p + ( m \times k ) ] \timse \tau
+  T=I_c \times CPI \times \tau =I_c \times \{p+(m \times k)\} \times \tau
 $$
