@@ -153,8 +153,8 @@ $$
 
 - 용어
   - $\tau$ : clock duration
-  - $p$ : # of clock cycles for decoding/executing the instr
-  - $m$ : # of memory reference
+  - $p$ : # of clock cycles for decoding/executing the instruction
+  - $m$ : # of memory reference (메모리 액세스에 걸리는 시간)
   - $k$ : memory cycle time/ processor cycle time
 - CPU가 하나의 명령어를 처리하는데 걸리는 시간은 CPU가 하나의 명령어를 해석하는데에 걸리는 시간($p$)과 메모리를 접근하는데에 걸리는 시간( $m$ $\times$ $k$ )의 합과 같다.
 
@@ -172,3 +172,10 @@ $$
 <br/>
 
 ## 평균의 계산
+
+- `산술평균`
+
+$$
+  \frac{1}{N}\displaystyle\sum_{i=1}^N x_i
+$$
+
