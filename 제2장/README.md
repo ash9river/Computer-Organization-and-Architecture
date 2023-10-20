@@ -93,7 +93,7 @@ $$T=(1-f)T+fT$$
 
 #### 멀티코어 실행 시간(multi core execute time)
 
-$$(1-f)T+fT/N=(1-f(1/N))T$$
+$$\frac{(1-f)T+fT}{N}=(1-f(1/N))T$$
 
 #### 속도 향상
 
