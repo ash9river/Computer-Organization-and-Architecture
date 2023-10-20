@@ -85,16 +85,34 @@
 - 단일 프로세서에 비교하여 다수의 프로세서들을 사용한 프로그램의 잠재적 속도 향상에 대한 이론
 <br/>
 
-- $T$: 단일 코어 속도 처리 진행시간(single core execute time)
-- $f$: 병렬 처리가 가능한 비율(percentage of parallel processing available)
-- $N$: 멀티코어 개수
+- $T$ : 단일 코어 속도 처리 진행시간(single core execute time)
+- $f$ : 병렬 처리가 가능한 비율(percentage of parallel processing available)
+- $N$ : 멀티코어 개수
 
 $$T=(1-f)T+fT$$
 
-### 멀티코어 실행 시간(multi core execute time)
+#### 멀티코어 실행 시간(multi core execute time)
 
 $$\frac{(1-f)T+fT}{N}=(1-f(\frac{1}{N}))T$$
 
-### 속도 향상
+#### 속도 향상
 
 $$\frac{1}{1-f+\frac{f}{N}}$$
+
+<br/>
+<br/>
+
+## 리틀의 법칙
+
+- 통계적으로 안정된 상태와 누출이 없는 시스템에 적용.
+- `큐잉 시스템(Queueing System)`:
+  - 만약 서버가 쉬는 상태라면 개체는 즉시 서비스를 받음. 그렇지 않다면 도착한 개체는 대기열 혹은 큐에 들어간다.
+  - 단일 서버를 위한 단일 큐(single queue) 혹은 다수 서버들를 위한 단일큐, 다수 큐 등등 시스템 구성은 다양하다.
+
+>안정 상태 조건 하에 큐잉 시스템 내에 있는 평균 개체 수는 개체들의 평균 도착율과 한 개체가 시스템에서 소모하는 평균 시간을 곱한 값과 같다. 
+
+$L$ : 큐잉 시스템 내에 있는 평균 개체수
+$\lamda$ : 개체들의 평균 도착률
+$W$ : 한 개체가 시스템에서 소모하는 평균 시간
+
+$$L=\lamdaW$$
