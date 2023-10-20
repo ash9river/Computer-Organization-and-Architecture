@@ -179,3 +179,8 @@ $$
   \frac{1}{N}\displaystyle\sum_{i=1}^N x_i
 $$
 
+- `기하평균`
+
+&&
+  \left( \prod_{i=1}^N x_i \right)^\frac{1}{N}
+&&
