@@ -184,3 +184,10 @@ $$
 $$
   \left( \prod_{i=1}^N x_i \right)^\frac{1}{N}
 $$
+
+- `조화평균`
+
+$$
+  \frac{N}{\displaystyle\sum_{i=1}&N \frac{1}{x_i}}
+$$
+$$
