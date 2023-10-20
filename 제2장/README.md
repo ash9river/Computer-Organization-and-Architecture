@@ -122,6 +122,9 @@ $$L=\lambda W$$
 
 ## 컴퓨터 성능의 동작
 
+- `$CPI$`(Clock per time): 단위 명령어당 평균 사이클
+- `$I_c$`(instruction count per time): 프로그램당 명령어 수
+
 $$
-  CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i*I_i)}{I_c}
+  CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i \times I_i)}{I_c}
 $$
