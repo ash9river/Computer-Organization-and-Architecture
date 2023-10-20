@@ -131,9 +131,14 @@ $$L=\lambda W$$
   - 프로그램당 명령어 수
 -  
 
+- `CPI 공식`
+ 
 $$
   CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i \times I_i)}{I_c}
 $$
+
+- `프로그램 실행 시간 공식`
+
 $$
   T=I_c \times CPI \times \tau =I_c \times [ p + ( m \times k ) ] \timse \tau
 $$
