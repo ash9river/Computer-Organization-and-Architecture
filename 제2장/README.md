@@ -155,7 +155,7 @@ $$
 - `MIPS rate`
 
   - $f$ : clock frequency
-    -$$f=\frac{1}{\tau}$$ 
+    - $$f=\frac{1}{\tau}$$ 
 $$
   MIPS=\frac{I_c}{T \times 10^6}=\frac{f}{CPI \times 10^6}
 $$
