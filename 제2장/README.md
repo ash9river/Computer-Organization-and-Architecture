@@ -79,8 +79,9 @@
 
 - 단일 프로세서에 비교하여 다수의 프로세서들을 사용한 프로그램의 잠재적 속도 향상에 대한 이론
 <br/>
-T: 단일 코어 속도 처리 진행시간(single core execute time)
-f: 병렬 처리가 가능한 비율(percentage of parallel processing available)
-N: 멀티코어 개수
 
-$$T=(1-f)T+fT)$$
+$T: 단일 코어 속도 처리 진행시간(single core execute time)
+f: 병렬 처리가 가능한 비율(percentage of parallel processing available)
+N: 멀티코어 개수$
+
+$$T=(1-f)T+fT$$
