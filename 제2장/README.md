@@ -155,7 +155,7 @@ $$
 - `MIPS rate`
 
   - $f$ : clock frequency
-> $$f=\frac{1}{\tau}$$
+ $$f=\frac{1}{\tau}$$
     
     
 $$
