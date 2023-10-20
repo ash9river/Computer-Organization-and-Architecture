@@ -168,4 +168,7 @@ $$
   - $f$ : clock frequency
  $$f=\frac{1}{\tau}$$
     
-    
+<br/>
+<br/>
+
+## 평균의 계산
