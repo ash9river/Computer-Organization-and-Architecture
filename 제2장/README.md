@@ -138,6 +138,7 @@ $$L=\lambda W$$
  
 $$
   CPI=\frac{\displaystyle\sum_{i=1}^n(CPI_i \times I_i)}{I_c}
+     =p+(m \times k)
 $$
 
 - `프로그램 실행 시간 공식`
