@@ -91,10 +91,10 @@
 
 $$T=(1-f)T+fT$$
 
-#### 멀티코어 실행 시간(multi core execute time)
+### 멀티코어 실행 시간(multi core execute time)
 
 $$\frac{(1-f)T+fT}{N}=(1-f(\frac{1}{N}))T$$
 
-#### 속도 향상
+### 속도 향상
 
 $$\frac{1}{1-f+\frac{f}{N}}$$
