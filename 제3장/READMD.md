@@ -228,7 +228,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 <br/>
 
-### 인터럽트를 포함한 명령어 사이클 상태도
+## 인터럽트를 포함한 명령어 사이클 상태도
 ![KakaoTalk_20231021_191023032_02](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2bfda5db-d9a4-4f4a-bce6-212c2b2786b0)
 
  <br/>
@@ -245,4 +245,27 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 ## I/O 기능
 
--
+- I/O 모듈은 프로세서와 직접 데이터를 교환할 수 있다.
+- 프로세서는 I/O 모듈에 대하여 데이터 읽기/쓰기를 할 수 있다.
+  - 프로세서는 특정 I/O 모듈에 의하여 제어되는 장치를 구분하기 위하여 주소를 사용한다.
+  - 기억장치 참조 명령어가 아니라 I/O 명령어를 사용한다.
+- I/O 모듈이 기억장치와 직접 데이터를 교환할 수 있도록 허용하는게 바람직하다.
+  - 프로세서가 기억장치 읽기/쓰기를 할 수 있는 권한을 부여함으로써 I/O - 기억장치 간 전송이 프로세서 관여없이 실행할 수 있게 된다.
+  - 이 동작을 직접 기억장치 액세스(DMA)라고 부른다.
+
+<br/>
+
+### 상호 연결 조직은 아래 유형의 전송을 지원해야 한다.
+
+- Memory to Processor : 프로세서는 기억장치로부터 명령어 또는 데이터를 읽는다.
+- Processor to Memory : 프로세서는 데이터를 기억장치에 저장한다.
+- I/O to Processor : 프로세서는 I/O 모듈을 통하여 I/O 장치로부터 데이터를 읽는다.
+- Processor to I/O : 프로세서는 I/O 장치로 데이터를 보낸다.
+- I/O to or from Memory : I/O 모듈과 기억장치는 프로세서를 통하지 않고, DMA를 이용하여 직접 데이터를 교환한다. 
+
+<br/>
+<br/>
+
+## Data Bus
+
+- 
