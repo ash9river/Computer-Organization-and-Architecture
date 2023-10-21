@@ -99,6 +99,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 <details>
   <summary>동작 예시 Flow 따라서 천천히 </summary></summary>
 
+---
+
 - Step 1 (Fetch Cycle)
   - 300 번지의 1940 IR에 저장
   - 1940 = 0001/940 -> Load AC from Memory(940)
@@ -130,7 +132,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |:---|:---|---|---:|---:|
 |300|1940||PC|301|
 |301|5941||AC|0003|
-|302|2941|||IR|5941|
+|302|2941||IR|5941|
 |940|0003||||
 |941|0002||||
 
