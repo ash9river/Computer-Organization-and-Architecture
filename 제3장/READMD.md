@@ -1,4 +1,4 @@
-# 제 3장 최상위에서 본 컴퓨터의 기능 및 상호연결
+![image](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/73695b10-7efe-4595-b82b-669c5959ab85)# 제 3장 최상위에서 본 컴퓨터의 기능 및 상호연결
 
 ## 컴퓨터의 구성요소들
 
@@ -88,7 +88,15 @@ start->Fetch Next Instruction->Execute Instruction->Halt
   - 0001 = Load AC from Memory
   - 0010 = Store AC to Memory
   - 0101 = Add to AC from Memory 
+- 메모리에 있는건 Hexa 코드, 첫 숫자는 opcode, 나머지는 address
 
+<details>
+  <summary>Flow 따라서 천천히 </summary>
+
+- Step 1 (Fetch Cycle)
+  - 300 번지의 1940 IR에 저장
+  - 1940 = 0001/940 -> Load AC from Memory(940)
+    
 |주소|메모리|여백|Internal CPU Registor|CPU Registor|
 |:---|:---|---|---:|---:|
 |300|1940||PC|300|
@@ -96,3 +104,63 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |302|2941|||IR|1940|
 |940|0003||||
 |941|0002||||
+
+- Step 2 (Execute Cycle)
+  - IR에 저장된 명렁어 실행 후 PC 증가시킴
+  - AC에 0003 저장, PC 300 -> 301
+
+|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|:---|:---|---|---:|---:|
+|300|1940||PC|301|
+|301|5941||AC|0003|
+|302|2941|||IR|1940|
+|940|0003||||
+|941|0002||||
+
+- Step 3 (Fetch Cycle)
+  - IR에 301 번지 명령어 5941 저장 
+
+|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|:---|:---|---|---:|---:|
+|300|1940||PC|301|
+|301|5941||AC|0003|
+|302|2941|||IR|5941|
+|940|0003||||
+|941|0002||||
+
+- Step 4 (Execute Cycle)
+  - 5941 = 1010/941 -> Add AC from Memory(2)
+  - 3 + 2 실행 후 PC 증가
+    
+|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|:---|:---|---|---:|---:|
+|300|1940||PC|302|
+|301|5941||AC|0005|
+|302|2941|||IR|5941|
+|940|0003||||
+|941|0002||||
+
+- Step 5 (Fetch Cycle)
+  - 302 번지 명령어 IR에 저장
+  
+|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|:---|:---|---|---:|---:|
+|300|1940||PC|302|
+|301|5941||AC|0005|
+|302|2941|||IR|2941|
+|940|0003||||
+|941|0002||||
+
+- Step 6 (Execute Cycle)
+  - 2941 = 0010/941 -> Storre AC to Memory
+  - AC에 있는 값 메모리에 저장 후 PC 증가
+
+ |주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|:---|:---|---|---:|---:|
+|300|1940||PC|303|
+|301|5941||AC|0005|
+|302|2941|||IR|2941|
+|940|0003||||
+|941|0005||||
+
+</details>
