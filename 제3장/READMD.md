@@ -127,6 +127,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |940|0003||||
 |941|0002||||
 
+<hr/>
+
 - Step 3 (Fetch Cycle)
   - IR에 301 번지 명령어 5941 저장 
 
@@ -137,6 +139,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |302|2941||IR|5941|
 |940|0003||||
 |941|0002||||
+
+<hr/>
 
 - Step 4 (Execute Cycle)
   - 5941 = 1010/941 -> Add AC from Memory(2)
@@ -150,6 +154,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |940|0003||||
 |941|0002||||
 
+<hr/>
+
 - Step 5 (Fetch Cycle)
   - 302 번지 명령어 IR에 저장
   
@@ -160,6 +166,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |302|2941||IR|2941|
 |940|0003||||
 |941|0002||||
+
+<hr/>
 
 - Step 6 (Execute Cycle)
   - 2941 = 0010/941 -> Storre AC to Memory
