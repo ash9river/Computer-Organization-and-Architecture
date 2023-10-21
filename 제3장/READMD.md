@@ -406,3 +406,12 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 <br/>
 <br/>
 
+## TL supports four address spaces
+
+- 타겟이 무엇인지에 따라 4가지 분류
+  - `Memory`
+  - `I/O`
+  - `Configure`:구성,제어
+  - `Message`: 주소가 저장된 데이터가 아니라 제어용
+ 
+<br/>
