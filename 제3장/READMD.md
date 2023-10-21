@@ -188,7 +188,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 ## 명령어 사이클 상태도
 
-<img width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c01dbdb0-b064-4d1b-a034-3230dd895699">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c01dbdb0-b064-4d1b-a034-3230dd895699">
 
 
 - 위의 세 원은 메모리와 관련된 연산
