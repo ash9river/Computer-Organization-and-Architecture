@@ -210,8 +210,9 @@ start->Fetch Next Instruction->Execute Instruction->Halt
  <br/>
 
  ### 프로그램 흐름 제어
- 
-![image (1)](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5c4ccbc0-f520-4728-a223-33d19bddef9d)
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5c4ccbc0-f520-4728-a223-33d19bddef9d">
+
 
 - interrupt handler를 사용하여 인터럽트 발생시 stop & backup -> 인터럽트 수행 -> restore 순차 실행
   - (a) 인터럽트가 없는 경우
@@ -225,12 +226,13 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 ## 인터럽트를 포함한 명령어 사이클
 
-![KakaoTalk_20231021_191023032_03](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/4381b531-037e-45b5-9ec9-0054793e306a)
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/4381b531-037e-45b5-9ec9-0054793e306a">
 
 <br/>
 
 ## 인터럽트를 포함한 명령어 사이클 상태도
-![KakaoTalk_20231021_191023032_02](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2bfda5db-d9a4-4f4a-bce6-212c2b2786b0)
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2bfda5db-d9a4-4f4a-bce6-212c2b2786b0">
 
  <br/>
  <br/>
@@ -238,8 +240,9 @@ start->Fetch Next Instruction->Execute Instruction->Halt
  ## 다중 인터럽트
 
  - 우선순위를 이용햔 인터럽트의 활용
-![KakaoTalk_20231021_191023032](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fd7a9758-6d45-49eb-86dc-4fc8e7a2bacc)
-![KakaoTalk_20231021_191023032_01](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/9dc897bd-3d34-43f3-90d7-edcefab74bbb)
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fd7a9758-6d45-49eb-86dc-4fc8e7a2bacc">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/9dc897bd-3d34-43f3-90d7-edcefab74bbb">
+
 
 <br/>
 <br/>
