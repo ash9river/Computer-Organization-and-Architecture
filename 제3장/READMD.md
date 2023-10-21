@@ -349,10 +349,10 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 |레이어 1|연결방식|레이어 2|
 |---|:---:|---|
-|Protocol|<-packet->|protocol|
+|Protocol|<- packet ->|protocol|
 |Routing||Routing|
-|Link|<-Flits->|Link|
-|Physical|<-Phits->|Physical|
+|Link|<- Flits ->|Link|
+|Physical|<- Phits ->|Physical|
 
 <br/>
 <br/>
