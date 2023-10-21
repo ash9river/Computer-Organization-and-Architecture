@@ -61,6 +61,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 ### 동작 분류
 
+<pre>
+  
 1. `프로세서-기억장치`
   - 데이터는 프로세서에서 기억장치 or 기억장치에서 프로세서로 전송된다.
 2. `프로세서-I/O`
@@ -70,7 +72,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 4. `제어`
   - 어떤 명령어는 실행 순서를 변경시키기도 한다.
   - 제어 이후 1번으로 루프
-
+</pre>
+  
 <br/>
 <br/>
 
