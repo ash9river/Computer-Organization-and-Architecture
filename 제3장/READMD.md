@@ -400,3 +400,9 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |Physical||Physical|
 
 - PCIe Multilane Distribution에서 128b/130b 같은 것은 encode할때, iming sync를 위해 2비트를 추가했다.
+- `Scrambler`: 연속된 비트가 나오지 않게 조정
+- `Clock Recovery Circuit`: 패킷이 바뀌는 구간에서 클록 조정
+
+<br/>
+<br/>
+
