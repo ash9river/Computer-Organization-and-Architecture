@@ -113,6 +113,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |940|0003||||
 |941|0002||||
 
+<hr/>
+
 - Step 2 (Execute Cycle)
   - IR에 저장된 명렁어 실행 후 PC 증가시킴
   - AC에 0003 저장, PC 300 -> 301
