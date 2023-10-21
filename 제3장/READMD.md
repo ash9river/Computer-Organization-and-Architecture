@@ -183,4 +183,17 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 </details>
 
-### [몀령어 사이클 상태도](https://mblogthumb-phinf.pstatic.net/MjAxODEwMThfMjgg/MDAxNTM5ODM1MzcyMDc5.S44zi_GNW3AhwSsawsVQ0aK0uNYV5dmCvmysywbYb58g.AgqvnBbRRMaaBK4670wUpEo1DhqfJGruFhpCV3Usw1Ig.PNG.whdgkks12347/image.png?type=w800)
+<br/>
+<br/>
+
+## 명령어 사이클 상태도
+
+![image](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c01dbdb0-b064-4d1b-a034-3230dd895699)
+
+- 위의 세 원은 메모리와 관련된 연산
+  
+<br/>
+<br/>
+
+## 인터럽트의 종류
+
