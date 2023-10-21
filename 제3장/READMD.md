@@ -351,8 +351,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |---|:---:|---|
 |Protocol|<- packet ->|protocol|
 |Routing||Routing|
-|Link|<- Flits ->|Link|
-|Physical|<- Phits ->|Physical|
+|Link|<-  Flits  ->|Link|
+|Physical|<-  Phits  ->|Physical|
 
 <br/>
 <br/>
