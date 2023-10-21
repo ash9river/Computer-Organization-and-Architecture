@@ -40,9 +40,12 @@
 
 ## 기본 명령어 사이클(intstruction cycle)
 
-                  loop
+<div>
+                    loop
           ↙⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅↖
 start->Fetch Next Instruction->Execute Instruction->Halt
+</div>
+
 
 <br/>
 
