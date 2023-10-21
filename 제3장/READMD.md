@@ -1,4 +1,4 @@
-![image](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/73695b10-7efe-4595-b82b-669c5959ab85)# 제 3장 최상위에서 본 컴퓨터의 기능 및 상호연결
+# 제 3장 최상위에서 본 컴퓨터의 기능 및 상호연결
 
 ## 컴퓨터의 구성요소들
 
