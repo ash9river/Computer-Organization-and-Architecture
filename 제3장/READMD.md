@@ -82,3 +82,17 @@ start->Fetch Next Instruction->Execute Instruction->Halt
   - `명령 레지스터(IR)`: 가장 최근에 인출된 명령어가 저장되어 있는 레지스터.
   - `누산기(AC)`: 데이터를 일시적으로 저장하는 레지스터
 
+### 프로그램 실행 예제
+
+- 비표준 opcode
+  - 0001 = Load AC from Memory
+  - 0010 = Store AC to Memory
+  - 0101 = Add to AC from Memory 
+
+|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|:---|:---|---|---:|---:|
+|300|1940||PC|300|
+|301|5941||AC|x|
+|302|2941|||IR|1940|
+|940|0003||||
+|941|0002||||
