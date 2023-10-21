@@ -336,6 +336,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 ## QPI(Quick Path Interconnection)
 
 - 복합적인 방향 연결(Multiple access 가능)
+  - 시스템에 있는 여러 부품들이 쌍으로 각각 전부 연결되어 있음
 - 계층적 프로토콜 구조(like switch fabric)
 - 패킷화된 데이터 전송
 
@@ -358,3 +359,44 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 <br/>
 
 ## QPI Link Layer
+
+- 72비트 메세지 페이로드와 8비트의 에러 컨트롤 코드(Cyclic Redundancy Check)
+- `flow control`
+  - 수신자가 데이터를 받을 상황인지 체크해서 데이터 송수신
+- `error control`
+  - 비트에서 탐지하고 고친다.
+
+ <br/>
+
+ ### QPI Routing and Protocol Layers
+
+ - Routing Layer
+   - 패킷 순회의 경로 결정
+ -  Protocol Layer
+   - 패킷을 전송의 단위로 정의
+   
+<br/>
+<br/>
+
+## PCI
+
+- PCI는 버스구조
+- PCI Express(PCIe)
+  - 네트워크 구조
+
+<br/>
+
+## PCIe
+
+- `TLP`: Transacation Layer Packets
+- `DLLP`: Data Link Layer Packets
+- Physical Layer의 전체와 Data Link Layer의 절반은 하드웨어로 구성
+- Physical Layer는 물리적으로 연결
+
+|레이어 1||레이어 2|
+|---|---|---|
+|Transaction|<- TLP ->|Transcation|
+|Data Link|<- DLLP ->|Data Link|
+|Physical||Physical|
+
+- PCIe Multilane Distribution에서 128b/130b 같은 것은 encode할때, iming sync를 위해 2비트를 추가했다.
