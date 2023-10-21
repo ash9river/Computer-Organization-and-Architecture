@@ -272,4 +272,87 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 ## Data Bus
 
-- 
+- 데이터 선들은 시스템 모듈들 간에 데이터 이동 경로를 제공
+- 선의 수를 데이터 버스의 폭(width)라고 함
+- 선의 수는 한번에 정송할 수 있는 비트 수를 결정하는데에 중요한 요소이다.
+
+### 주소 버스
+
+- 데이터의 source나 destination를 지정하는데 사용
+- 폭은 시스템의 최대 기억장치 용량을 결정
+
+### 제어 버스
+
+- 데이터 선들과 주소 선들의 사용 제어
+
+<br/>
+<br/>
+
+## 버스 상호연결 방식
+
+- CPU가 Master, 나머지는 Slave
+- DMA가 생겨서 DMA가 중재자(Arbiter) 역할을 함
+- 버스를 계층적으로 나누기도 함.
+- 이미지 추가 예정
+
+<br/>
+<br/>
+
+## 버스 설계의 요소들
+
+- 버스의 타입에 따라
+  - Deciated vs Multiplexed
+- 중재의 방법에 따라
+  - Centralized vs Distribute
+- Timing
+  - 동기적 vs 비동기적
+- 버스 폭
+  - Address vs Data
+- 데이터 전송 타입
+  - Read vs Write vs etc...
+ 
+  <br/>
+
+  ## 버스 동작의 타이밍
+
+  - `동기식`
+    - clock cylce이 존재해서 timing을 맞춰서 동작
+  - `비동기식`
+    - 맞추지 않고 비동기적 동작(Hand Shaking)
+   
+<br/>
+<br/>
+
+## 점대점 상호연결
+
+- Networking하는 것처럼 동작
+- 전용선으로의 회귀
+- 모든 점 연결 x, 가까운 점들만 1:1 연결
+- 중간자가 매개체 연결
+
+<br/>
+<br/>
+
+## QPI(Quick Path Interconnection)
+
+- 복합적인 방향 연결(Multiple access 가능)
+- 계층적 프로토콜 구조(like switch fabric)
+- 패킷화된 데이터 전송
+
+### QPI Layer
+
+- Link(Flits): Hand-Shaking
+- Physical(Phits): 물리적으로 연결
+- 하드웨어는 피지컬 레이어 전체와 링크 레이어 절반
+
+|레이어 1|연결방식|레이어 2|
+|---|---|---|
+|Protocol|<-packet->|protocol|
+|Routing||Routing|
+|Link|<-Flits->|Link|
+|Physical|<-Phits->|Physical|
+
+<br/>
+<br/>
+
+## QPI Link Layer
