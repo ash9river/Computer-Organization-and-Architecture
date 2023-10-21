@@ -107,7 +107,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |:---|:---|---|---:|---:|
 |300|1940||PC|300|
 |301|5941||AC|x|
-|302|2941|||IR|1940|
+|302|2941||IR|1940|
 |940|0003||||
 |941|0002||||
 
@@ -115,11 +115,11 @@ start->Fetch Next Instruction->Execute Instruction->Halt
   - IR에 저장된 명렁어 실행 후 PC 증가시킴
   - AC에 0003 저장, PC 300 -> 301
 
-|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|주소|메모리||Internal CPU Registor|CPU Registor|
 |:---|:---|---|---:|---:|
 |300|1940||PC|301|
 |301|5941||AC|0003|
-|302|2941|||IR|1940|
+|302|2941||IR|1940|
 |940|0003||||
 |941|0002||||
 
@@ -138,22 +138,22 @@ start->Fetch Next Instruction->Execute Instruction->Halt
   - 5941 = 1010/941 -> Add AC from Memory(2)
   - 3 + 2 실행 후 PC 증가
     
-|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|주소|메모리||Internal CPU Registor|CPU Registor|
 |:---|:---|---|---:|---:|
 |300|1940||PC|302|
 |301|5941||AC|0005|
-|302|2941|||IR|5941|
+|302|2941||IR|5941|
 |940|0003||||
 |941|0002||||
 
 - Step 5 (Fetch Cycle)
   - 302 번지 명령어 IR에 저장
   
-|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|주소|메모리||Internal CPU Registor|CPU Registor|
 |:---|:---|---|---:|---:|
 |300|1940||PC|302|
 |301|5941||AC|0005|
-|302|2941|||IR|2941|
+|302|2941||IR|2941|
 |940|0003||||
 |941|0002||||
 
@@ -161,11 +161,11 @@ start->Fetch Next Instruction->Execute Instruction->Halt
   - 2941 = 0010/941 -> Storre AC to Memory
   - AC에 있는 값 메모리에 저장 후 PC 증가
 
- |주소|메모리|여백|Internal CPU Registor|CPU Registor|
+ |주소|메모리||Internal CPU Registor|CPU Registor|
 |:---|:---|---|---:|---:|
 |300|1940||PC|303|
 |301|5941||AC|0005|
-|302|2941|||IR|2941|
+|302|2941||IR|2941|
 |940|0003||||
 |941|0005||||
 
