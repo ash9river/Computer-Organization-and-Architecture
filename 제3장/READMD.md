@@ -339,6 +339,8 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 - 계층적 프로토콜 구조(like switch fabric)
 - 패킷화된 데이터 전송
 
+<br/>
+
 ### QPI Layer
 
 - Link(Flits): Hand-Shaking
@@ -346,7 +348,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 - 하드웨어는 피지컬 레이어 전체와 링크 레이어 절반
 
 |레이어 1|연결방식|레이어 2|
-|---|---|---|
+|---|:---:|---|
 |Protocol|<-packet->|protocol|
 |Routing||Routing|
 |Link|<-Flits->|Link|
