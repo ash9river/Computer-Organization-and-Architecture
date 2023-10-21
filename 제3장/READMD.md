@@ -182,3 +182,5 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 |941|0005||||
 
 </details>
+
+### [몀령어 사이클 상태도](https://mblogthumb-phinf.pstatic.net/MjAxODEwMThfMjgg/MDAxNTM5ODM1MzcyMDc5.S44zi_GNW3AhwSsawsVQ0aK0uNYV5dmCvmysywbYb58g.AgqvnBbRRMaaBK4670wUpEo1DhqfJGruFhpCV3Usw1Ig.PNG.whdgkks12347/image.png?type=w800)
