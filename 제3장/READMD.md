@@ -40,11 +40,11 @@
 
 ## 기본 명령어 사이클(intstruction cycle)
 
-<p>
+<pre>
                     loop
           ↙⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅⬅↖
 start->Fetch Next Instruction->Execute Instruction->Halt
-</p>
+</pre>
 
 
 <br/>
