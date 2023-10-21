@@ -97,13 +97,13 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 - 메모리에 있는건 Hexa 코드, 첫 숫자는 opcode, 나머지는 address
 
 <details>
-  <summary>Flow 따라서 천천히 </summary>
+  <summary>동작 예시 Flow 따라서 천천히 </summary></summary>
 
 - Step 1 (Fetch Cycle)
   - 300 번지의 1940 IR에 저장
   - 1940 = 0001/940 -> Load AC from Memory(940)
     
-|주소|메모리|여백|Internal CPU Registor|CPU Registor|
+|주소|메모리||Internal CPU Registor|CPU Registor|
 |:---|:---|---|---:|---:|
 |300|1940||PC|300|
 |301|5941||AC|x|
