@@ -83,3 +83,42 @@
 ## 기억장치 계층
 
 <img width="60%" height="60%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6429adae-788e-4b42-8c2f-925915f03759">
+
+- Inboard memory(Internal)
+  - `Registers`
+    - CPU와 가까움
+  - `Cache`
+    - CPU와 Cache의 절반은 CPU 내부에 위치  
+  - `Main Memory`
+    - 삼성이나 SK에서 만드는 DDR/DRAM
+- External: I/O module을 통해 Inboard memory와 상호연결
+  - Outboard storage
+  - Off-line storage(백업용)
+
+<br/>
+<br/>
+
+## Memory
+
+- 3 level: inboard vs outboard vs off-line
+- Disk cache
+
+### Performance of Two-Level Memory
+
+<img width="60%" height="60%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/03f103d8-823a-4424-8144-bad7c346f7e2">
+
+- $T_1$ : access time to level 1
+- $T_2$ : access time to level 2
+- $r$ : Hit ratio(The probability of being in the cache)
+
+$$ Average access Time = r \times T_1 + (1-r) \times (T_1 + T_2) $$
+
+- <details>
+  <summary>캐시와 주 기억장치</summary>
+  
+  ![KakaoTalk_20231022_145355712](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e01f9ee-1b27-4ae6-abe6-6ab22159c087)
+![KakaoTalk_20231022_145355712_01](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e2b38fcd-4332-4669-960d-19d3a54fa2f6)
+![KakaoTalk_20231022_145355712_02](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/45bbb680-ac90-4319-a172-831da2de87ae)
+![KakaoTalk_20231022_145355712_03](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2d7a98af-50cd-45cc-9cd6-7f85a64ed98a)
+
+</details>
