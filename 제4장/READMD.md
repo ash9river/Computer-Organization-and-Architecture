@@ -156,4 +156,4 @@
 - $i$ = $j$ % $m$
 - 요약
   - CPU에서 발생시키는 주소 길이가 A이다
-  - 만약에 1 line = 4 word 이면, &2^2& word 이므로 word bit = 2 bit이다
+  - 만약에 1 line = 4 word 이면, $2^2$ word 이므로 word bit = 2 bit이다
