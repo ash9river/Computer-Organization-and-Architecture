@@ -174,4 +174,4 @@
   - 메인 메모리 전체 주소: 24비트
   - line 14 bits, word 2 bits ->tag 8 bits
   - word 2 bits -> 1 line = 4 words
-  - line 14 bits -> 16K cache($2^4 \times$ $2^(10)$)
+  - line 14 bits -> 16K cache($2^4 \times 2^{10}$)
