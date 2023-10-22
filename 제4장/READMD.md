@@ -175,3 +175,5 @@
   - line 14 bits, word 2 bits ->tag 8 bits
   - word 2 bits -> 1 line = 4 words
   - line 14 bits -> 16K cache($2^4 \times 2^{10}$)
+  - tag 8 bits = 2 Hexa
+  - 4 bits = 1 Hexa
