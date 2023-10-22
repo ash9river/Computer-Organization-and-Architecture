@@ -132,5 +132,16 @@
 - `가상 기억장치`
   -  주 기억장치 크기에 상관없이 논리적 관점으로 기억장치의 주소 지정
   -  하드웨어 기억장치 관리 유닛(MMU)이 각 가상 주솔르 주 기억장치 내의 물리적 주소로 변환
--  `Physical address vs Logical address`
+
+<br/>
+
+### Physical address vs Logical address
+
 <img src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/89b67c5b-33ce-4cbe-b20a-d346ded3f169" width="80%" height="80%">
+<br/>
+<br/>
+
+## 사상 함수(Mapping Function)
+
+- 캐시 라인의 수는 주 기억장치 블록의 수보다 적기 떄문에, 주 기억장치 블록을 캐시 라인으로 사상(mapping) 해주는 알고리즘 필요
+- 직접 vs 연관 vs 세트연관
