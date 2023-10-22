@@ -177,3 +177,18 @@
   - line 14 bits -> 16K cache($2^4 \times 2^{10}$)
   - tag 8 bits = 2 Hexa
   - 4 bits = 1 Hexa
+
+<br/>
+
+### 빅팀 캐시
+
+- 직접 사상 캐시에서 같은 line에 사상되는 두 개의 블록들로부터 word를 반복적으로 읽어야 한다면, 그 블록들은 반복적으로 swap되고 결과적으로 hit ratio 감소하게 되는 스레싱(thrashing) 현상 발생
+- 휴지통 같은 개념
+
+<br/>
+
+## 완전 연관 캐시
+
+- 다 불러온다~~~ <under construction/>
+
+
