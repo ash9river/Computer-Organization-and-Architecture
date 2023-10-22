@@ -93,3 +93,72 @@
 
 - 하드 결함(Hard Failure)
   - 영구적인 물리적 결함
+  - 메모리 셀이 안정되게 데이터를 저장할 수 없음
+- 소프트 오류(Soft Error)
+  - 메모리의 내용이 일시적으로 변경됨
+
+ <br/>
+ 
+## 해밍 오류 정정 코드
+
+<br/>
+<br/>
+
+## 첨단 DRAM 조직
+
+- 고성능 프로세서들이 사용되었을 때, 가장 심각한 시스템 병목들 중에 하나는 내부 메인 메모리로 접속되는 인터페이스
+- 전통적인 DRAM 칩은 내부 구조와 프로세서의 메모리 버스와 인터페이스때문에 한계를 가지고 있음
+- 기본적인 DRAM 구조에 여러 가지 보완이 이루어져서 SDRAM(Synchronous <!--clock--> DRAM)
+- SDRAM -> DDR 으로 진화
+
+<br/>
+
+## 동기식 DRAM(SDRAM)
+
+- 가장 널리 사용되고 있는 DRAM 형태들 중 하나
+- 외부 클록 신호와 동기화되어 대기 상태 없이 프로세서/메모리 버스의 전속력으로 실행되고, 프로세서와 데이터 교환
+- 동기식 액세스를 이용하면 DRAM은 시스템 클록의 제어 하에 데이터를 받고 내보내게 됨
+  - 프로세서나 다른 master는 명령어와 주소 정보를 발송하고, DRAM에 의해 래치(latch)된다.
+  - DRAM은 일정 수의 클록 이후에 응답한다.
+  - SDRaM은 request를 처리하는 동안, master는 안전하게 다른 일을 수행할 수 있다.
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dd89c4ad-70b8-4c0d-8e17-43eff13f8a95">
+<br/>
+
+### SDRAM 읽기 타이밍
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f96dc227-4d1b-43d0-8e10-205b13dae776">
+
+<br/>
+<br/>
+
+## Double Data Rate SDRAM(DDR SDRAM)
+
+- SDARM은 데이터를 버스 클록 사이클 당 한 번씩만 프로세서를 보낼 수 있다.
+- Double-data-rate DRAM이라고 불리는 새로운 버전의 DRAM은 데이터를 클록 사이클당 두 번씩 보낼 수 있다.
+  - 클록펄스의 상승 에지와 하강 에지에서 보낸다.
+
+<br/>
+
+### DDR SDRAM 읽기 타이밍
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/69b2171e-03b6-455c-ac96-71b484f311b8">
+
+<br/>
+![KakaoTalk_20231022_192534602](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/76e6d97a-fdcd-4671-a77e-354146ab2365)
+
+<br/>
+<br/>
+
+## Flash Memory
+
+- 내부 메모리 및 외부 메모리 응용 모두를 위하여 사용
+- 가격과 기능성 EPROM과 EEPROM의 중간
+- 메모리 블록만 삭제 가능, 바이트 단위 삭제 불가능
+
+<br/>
+![KakaoTalk_20231022_194326274](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/b071b274-4581-4b88-a700-b38d8fe05253)
+![KakaoTalk_20231022_194400092](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d121bdc5-b264-40f2-9980-7b771349c20e)
+![KakaoTalk_20231022_194425798](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/86f7f2d5-082f-4a47-8278-ee59155f0240)
+
+
