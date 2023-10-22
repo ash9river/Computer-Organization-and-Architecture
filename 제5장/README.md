@@ -145,6 +145,7 @@
 <img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/69b2171e-03b6-455c-ac96-71b484f311b8">
 
 <br/>
+
 ![KakaoTalk_20231022_192534602](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/76e6d97a-fdcd-4671-a77e-354146ab2365)
 
 <br/>
@@ -157,6 +158,7 @@
 - 메모리 블록만 삭제 가능, 바이트 단위 삭제 불가능
 
 <br/>
+
 ![KakaoTalk_20231022_194326274](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/b071b274-4581-4b88-a700-b38d8fe05253)
 ![KakaoTalk_20231022_194400092](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d121bdc5-b264-40f2-9980-7b771349c20e)
 ![KakaoTalk_20231022_194425798](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/86f7f2d5-082f-4a47-8278-ee59155f0240)
