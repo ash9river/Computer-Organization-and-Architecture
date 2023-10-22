@@ -116,11 +116,21 @@
 - <details>
   <summary>캐시와 주 기억장치</summary>
   
-
-  <div>
-<img width="80% height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e01f9ee-1b27-4ae6-abe6-6ab22159c087">
-<img width="80% height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e2b38fcd-4332-4669-960d-19d3a54fa2f6">
-<img width="80% height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/45bbb680-ac90-4319-a172-831da2de87ae">
-<img width="80% height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2d7a98af-50cd-45cc-9cd6-7f85a64ed98a">
-</div>
+![KakaoTalk_20231022_145355712](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e01f9ee-1b27-4ae6-abe6-6ab22159c087)
+![KakaoTalk_20231022_145355712_01](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e2b38fcd-4332-4669-960d-19d3a54fa2f6)
+![KakaoTalk_20231022_145355712_02](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/45bbb680-ac90-4319-a172-831da2de87ae)
+![KakaoTalk_20231022_145355712_03](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2d7a98af-50cd-45cc-9cd6-7f85a64ed98a)
 </details>
+
+<br/>
+<br/>
+
+## 캐시 주소
+
+- 도서관의 자유석 같은거
+- CPU -> Cache 접근할 때, 물리적 주소(Main Memory의 실제 주소)를 사용하는지 혹은 가상의 주소(logical)를 쓰는지
+- `가상 기억장치`
+  -  주 기억장치 크기에 상관없이 논리적 관점으로 기억장치의 주소 지정
+  -  하드웨어 기억장치 관리 유닛(MMU)이 각 가상 주솔르 주 기억장치 내의 물리적 주소로 변환
+-  `Physical address vs Logical address`
+<img src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/89b67c5b-33ce-4cbe-b20a-d346ded3f169" width="80%" height="80%">
