@@ -170,3 +170,8 @@
     - 메인 메모리의 line bit = s
     - 캐시의 line bit = r 
     - 식별을 위해 태그의 크기를 s - r
+- 예시
+  - 메인 메모리 전체 주소: 24비트
+  - line 14 bits, word 2 bits ->tag 8 bits
+  - word 2 bits -> 1 line = 4 words
+  - line 14 bits -> 16K cache($2^4 \times 2^10$)
