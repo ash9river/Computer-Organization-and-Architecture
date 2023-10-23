@@ -90,14 +90,11 @@
 
 ### RAID 레벨들
 
-![KakaoTalk_20231023_155619983](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/96d00f80-9fc8-4f21-a0a0-259d2b0ad05b)
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/96d00f80-9fc8-4f21-a0a0-259d2b0ad05b">
 
+<br/>
 
-
-
-
-
-
+![KakaoTalk_20231023_155714392](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/b7664afc-0f10-4018-90f5-8b8be5496b4f)
 
 
 
