@@ -186,3 +186,14 @@
 
 > 💡 대량의 데이터가 이동될 떄는 더 효율적인 기법이 요구된다.
 >  > 직접 기억장치 액세스(DMA)
+
+<br/>
+<br/>
+
+## DMA
+
+<details>
+  <summary>직접 기억 장치 액세스</summary>
+  
+![KakaoTalk_20231023_223433790](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7ee202af-c1e2-40b7-8e87-7eac43fb02d9)
+</details>
