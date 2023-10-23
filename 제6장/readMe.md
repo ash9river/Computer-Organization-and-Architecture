@@ -212,12 +212,46 @@
 
 <br/>
 
-### SSD 조직
+## SSD 조직
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7f21918e-3c7b-432f-ad28-4b7d7280cefe">
 
 
+<br/>
+<br/>
 
+## 실제적 이슈들
+
+- HDD에서는 없지만 SDD에서만 존재하는 두가지 실제적 이슈
+  - SSD의 성능은 그 장치가 사용될수록 저하된다.
+    - 전체 블록이 플래시 메모리로부터 읽혀서 RAM 버퍼에 들어가야한다.
+    - 블록이 플래시 메모리에 되쓰여지기(write back) 전에 플래시 메모리의 해당 블록 전체가 삭제되어야 한다.
+    - 버퍼로부터 전체 블록이 플래시 메모리로 되쓰여진다.
+  - 플래시 메모리는 어떤 횟수의 쓰기를 한 이후에는 사용할 수 없다.
+    - 수명을 연장시키는 알고리즘 사용
+    - 대부분의 플래시 장치들은 남은 수명 추정하여 결함 예측 및 선점 동작(preemptive action)을 취함.
+   
+<br/>
+<br/>
+
+## CD-ROM(Compact Disk-Read Only Memory)
+
+
+![KakaoTalk_20231023_181431106](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/a83ff70d-5e2f-4761-b0db-ef100dce1eff)
+
+- CD-ROM의 장점
+  - 광 디스크는 저장된 정보와 함께 저렴한 가격으로 대량 복제 가능
+  - 광 디스크는 제거될 수 있어서 디스크 자체가 기록 보관용 저장장치로 사용 가능
+- CD-ROM의 단점
+  - 읽기만 가능하고 갱신 불가능
+  - 액세스 시간이 자기 디스크보다 0.5초 더 길다.
+
+ <br/>
+ <br/>
+
+ ## 자기 테이프
+
+ - 은행/전산/기록/신문 등 오래된 자료 보관할 때 사용
 
 
 
