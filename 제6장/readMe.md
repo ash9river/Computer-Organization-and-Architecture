@@ -188,9 +188,16 @@
   - 매 쓰기 동작마다 두 개의 패리티 블록 갱신해야 되서 상당한 쓰기 패널티 유발
  
  <br/>
- 
+
+ ### RAID 비교
 
 ![KakaoTalk_20231023_171835926](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7fa89a03-e342-405c-890d-50a82999ff9c)
+
+<br/>
+<br/>
+
+## 솔리드 스테이트 드라이브(SSD)
+
 
 
 
