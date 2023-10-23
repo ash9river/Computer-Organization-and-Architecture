@@ -66,9 +66,26 @@
 <br/>
 <br/>
 
+## 프로그램 I/O(Programmed I/O)
 
+- I/O 동작에는 세 가지 기술들이 사용될 수 있다.
+  - `Programmed I/O`
+    - 프로세서와 I/O 모듈 사이에 데이터가 교환된다.
+    - 프로세서는 프로그램을 실행함으로써 주변 장치의 상태 감지, 읽기, 혹은 쓰기 명령의 전송, 데이터 전송 같은 I/O 동작들을 직접 제어
+    - 프로세서가 I/O 모듈에게 명령을 보낸 후에 I/O 동작이 완료될 때까지 기다려야 한다.
+    - 만약 프로세서가 I/O 모듈보다 속도가 빠를 때는 프로세서 시간이 낭비된다.
+  - `인터럽트-구동 I/O(Interrupt-driven I/O)`
+    - 프로세서가 I/O 명령을 보낸 다음에, I/O 모듈이 그 일을 완료하고 인터럽트를 보낼 때까지 다른 명령어들의 수행을 계속할 수 있다. 
+  - `직접 기억 장치 액세스(Direct Memory Access:DMA)`
+    - I/O 모듈과 메인 메모리가 프로세서의 개입 없이 데이터를 직접 교환  
 
+<br/>
 
+<details>
+  <summary>I/O 기술들</summary>
+
+ ![KakaoTalk_20231023_205920226](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/ec17db1a-13c3-48af-9b18-510d1e955537)
+</details>
 
 
 
