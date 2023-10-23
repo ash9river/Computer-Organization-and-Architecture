@@ -81,12 +81,15 @@
 
 <br/>
 
-<details>
-  <summary>I/O 기술들</summary>
+### I/O 기술들
 
- ![KakaoTalk_20231023_205920226](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/ec17db1a-13c3-48af-9b18-510d1e955537)
-</details>
+||No Interrupts|Use of Interrupts|
+|---|---|---|
+|I/O to Memory transfer through processor(CPU 관여)|Programmed I/O|Interrupt-driven I/O|
+|Direct I/O to Memory transfer(직접)||Direct Memory Access(DMA)|
 
+<br/>
+<br/>
 
 
 
