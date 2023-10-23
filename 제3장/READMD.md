@@ -261,11 +261,11 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 ### 상호 연결 조직은 아래 유형의 전송을 지원해야 한다.
 
-- Memory to Processor : 프로세서는 기억장치로부터 명령어 또는 데이터를 읽는다.
-- Processor to Memory : 프로세서는 데이터를 기억장치에 저장한다.
-- I/O to Processor : 프로세서는 I/O 모듈을 통하여 I/O 장치로부터 데이터를 읽는다.
-- Processor to I/O : 프로세서는 I/O 장치로 데이터를 보낸다.
-- I/O to or from Memory : I/O 모듈과 기억장치는 프로세서를 통하지 않고, DMA를 이용하여 직접 데이터를 교환한다. 
+- `Memory to Processor` : 프로세서는 기억장치로부터 명령어 또는 데이터를 읽는다.
+- `Processor to Memory` : 프로세서는 데이터를 기억장치에 저장한다.
+- `I/O to Processor` : 프로세서는 I/O 모듈을 통하여 I/O 장치로부터 데이터를 읽는다.
+- `Processor to I/O` : 프로세서는 I/O 장치로 데이터를 보낸다.
+- `I/O to or from Memory` : I/O 모듈과 기억장치는 프로세서를 통하지 않고, DMA를 이용하여 직접 데이터를 교환한다. 
 
 <br/>
 <br/>
