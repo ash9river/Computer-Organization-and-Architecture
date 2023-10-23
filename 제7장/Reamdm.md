@@ -83,6 +83,8 @@
 
 ### I/O 기술들
 
+<br/>
+
 ||No Interrupts|Use of Interrupts|
 |---|---|---|
 |I/O to Memory transfer through processor(CPU 관여)|Programmed I/O|Interrupt-driven I/O|
@@ -91,9 +93,12 @@
 <br/>
 <br/>
 
+## I/O 명령들
 
-
-
+- 프로세서에 의해 주소가 지정된 I/O 모듈이 받게 되는 네가지 I/O 명령들
+  1. `제어(Control)`:
+    - 주변 장치를 활성화시키고 무엇을 해야하는지 알리는 데 사용 
+  2.  `검사(Test)`:
 
 
 
