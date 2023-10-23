@@ -187,13 +187,10 @@
   - 높은 데이터 가용성(신뢰도:data availability) 제공
   - 매 쓰기 동작마다 두 개의 패리티 블록 갱신해야 되서 상당한 쓰기 패널티 유발
  
+ <br/>
  
- 
 
-
-
-
-
+![KakaoTalk_20231023_171835926](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7fa89a03-e342-405c-890d-50a82999ff9c)
 
 
 
