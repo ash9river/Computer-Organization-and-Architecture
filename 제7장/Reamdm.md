@@ -195,8 +195,7 @@
 <details>
   <summary>직접 기억 장치 액세스</summary>
   
-![KakaoTalk_20231023_223433790](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7ee202af-c1e2-40b7-8e87-7eac43fb02d9)
-
-<img width="100%" height="100%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7ee202af-c1e2-40b7-8e87-7eac43fb02d9">
+![KakaoTalk_20231023_223756953](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7ac56f7b-272f-45bd-ac11-a951d73d7bca)
+![KakaoTalk_20231023_223839279](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/46a10c60-8b7e-4355-82e5-e320d18faa76)
 
 </details>
