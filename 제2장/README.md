@@ -128,7 +128,7 @@ $$L=\lambda W$$
 - $CPI$ (Clock per time):
   - 단위(평균적인) 명령어당 평균 사이클(하나의 명령어를 처리하는데 몇 사이클이 걸리는지)
 - $T$ (program execute time): 프로그램 실행 시간
-- $MIPS rate$ (Millions of instructions per second) : 시간당 몇백만개의 명령어를 처리하는지
+- $MIPS$ $rate$ (Millions of instructions per second) : 시간당 몇백만개의 명령어를 처리하는지
 
 ---
 
