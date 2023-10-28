@@ -122,7 +122,7 @@
         
 ![KakaoTalk_20231028_154016277](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fabaa244-56dd-470e-8f58-2d54df4dd0cc)
 
-    </details>
+</details>
     
 ![KakaoTalk_20231028_154051915](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/b5c9a6c9-7cbe-47d4-9eed-2cb5127b063b)
 
