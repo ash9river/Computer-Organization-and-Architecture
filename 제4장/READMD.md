@@ -113,14 +113,12 @@
 
  Average access Time $$= r \times T_1 + (1-r) \times (T_1 + T_2) $$
 
-- <details>
-  <summary>캐시와 주 기억장치</summary>
-  
-![KakaoTalk_20231022_145355712](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e01f9ee-1b27-4ae6-abe6-6ab22159c087)
-![KakaoTalk_20231022_145355712_01](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e2b38fcd-4332-4669-960d-19d3a54fa2f6)
-![KakaoTalk_20231022_145355712_02](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/45bbb680-ac90-4319-a172-831da2de87ae)
-![KakaoTalk_20231022_145355712_03](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2d7a98af-50cd-45cc-9cd6-7f85a64ed98a)
-</details>
+- *캐시와 주 기억장치*
+ 
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e01f9ee-1b27-4ae6-abe6-6ab22159c087">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e2b38fcd-4332-4669-960d-19d3a54fa2f6">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/45bbb680-ac90-4319-a172-831da2de87ae">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2d7a98af-50cd-45cc-9cd6-7f85a64ed98a">
 
 <br/>
 <br/>
