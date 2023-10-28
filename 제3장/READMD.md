@@ -189,16 +189,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 </details>
 
-<br/>
-<br/>
 
-## 명령어 사이클 상태도
-
-<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c01dbdb0-b064-4d1b-a034-3230dd895699">
-
-
-- 위의 세 원은 메모리와 관련된 연산
-  
 <br/>
 <br/>
 
@@ -217,8 +208,7 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
  ### 프로그램 흐름 제어
 
-<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5c4ccbc0-f520-4728-a223-33d19bddef9d">
-
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/76a5b328-5547-439a-b75e-d7e3558e0f83">
 
 - interrupt handler를 사용하여 인터럽트 발생시 stop & backup -> 인터럽트 수행 -> restore 순차 실행
   - (a) 인터럽트가 없는 경우
@@ -295,6 +285,9 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 <br/>
 
 ## 버스 상호연결 방식
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/719e072e-1146-462c-a4fb-cceedb0a3b19">
+
 
 - CPU가 Master, 나머지는 Slave
 - DMA가 생겨서 DMA가 중재자(Arbiter) 역할을 함
