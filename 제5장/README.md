@@ -101,6 +101,10 @@
  
 ## 해밍 오류 정정 코드
 
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/895acf38-bb89-4596-ae65-b4c9fa8ffa8c">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/1434e4c4-7c9f-47f3-8ce4-450ff9e43e1f">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2959f075-0fcd-408d-836f-a14c44deb6aa">
+  
 <br/>
 <br/>
 
