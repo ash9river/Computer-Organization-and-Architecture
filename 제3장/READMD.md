@@ -410,6 +410,10 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 - `Clock Recovery Circuit`: 패킷이 바뀌는 구간에서 클록 조정
 
 <br/>
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/8cc4632f-28a0-482b-9a30-16d99070a2af">
+
+<br/>
 <br/>
 
 ## TL supports four address spaces
