@@ -135,7 +135,8 @@
 
 ### Physical address vs Logical address
 
-<img src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/89b67c5b-33ce-4cbe-b20a-d346ded3f169" width="80%" height="80%">
+<img src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/89b67c5b-33ce-4cbe-b20a-d346ded3f169" width="60%" height="60%">
+
 <br/>
 <br/>
 
