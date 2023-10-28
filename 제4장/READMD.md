@@ -82,7 +82,7 @@
 
 ## 기억장치 계층
 
-<img width="60%" height="60%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6429adae-788e-4b42-8c2f-925915f03759">
+<img width="60%" height="60%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5f6887dc-050b-4050-8101-e221762bc0eb">
 
 - Inboard memory(Internal)
   - `Registers`
