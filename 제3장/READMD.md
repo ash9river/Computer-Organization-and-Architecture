@@ -36,6 +36,12 @@
     - I/O 모듈과 CPU 사이의 데이터 교환을 위해 사용
 
 <br/>
+
+### 컴퓨터 구성요소의 최상위 레벨
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/1ac1dff2-dcd0-4714-915c-922187559958">
+
+<br/>
 <br/>
 
 ## 기본 명령어 사이클(intstruction cycle)
