@@ -99,6 +99,8 @@ $$\frac{(1-f)T+fT}{N}=(1-f(\frac{1}{N}))T$$
 
 $$\frac{1}{1-f+\frac{f}{N}}$$
 
+![KakaoTalk_20231028_154844489](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/35485c48-0f84-4c89-93be-e8b59aaf4e83)
+
 <br/>
 <br/>
 
