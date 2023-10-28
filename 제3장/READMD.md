@@ -288,11 +288,13 @@ start->Fetch Next Instruction->Execute Instruction->Halt
 
 <img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/719e072e-1146-462c-a4fb-cceedb0a3b19">
 
+<br/>
 
 - CPU가 Master, 나머지는 Slave
 - DMA가 생겨서 DMA가 중재자(Arbiter) 역할을 함
 - 버스를 계층적으로 나누기도 함.
-- 이미지 추가 예정
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/a720ec3e-faa3-4f8c-bdd5-4a6010b6be1e">
 
 <br/>
 <br/>
@@ -318,7 +320,12 @@ start->Fetch Next Instruction->Execute Instruction->Halt
     - clock cylce이 존재해서 timing을 맞춰서 동작
   - `비동기식`
     - 맞추지 않고 비동기적 동작(Hand Shaking)
-   
+
+<br/>
+
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/a1732503-7c96-46e6-8092-a6edeef93145">
+
+
 <br/>
 <br/>
 
