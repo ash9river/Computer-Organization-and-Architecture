@@ -120,11 +120,15 @@
         - `프로그램 카운터(PC)`: 기억장치로부터 읽혀질 다음 명령어의 주소 저장.
         - `누산기(AC) 및 multiplier quotient(MQ)`: ALU 연산에 사용될 오퍼랜드와 결과를 일시적으로 저장하는데 사용.
         
-    ![KakaoTalk_20231028_154016277](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fabaa244-56dd-470e-8f58-2d54df4dd0cc)
+   
 
 </details>
 
-    
+<br/>
+
+### IAS System
+
+![KakaoTalk_20231028_154016277](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fabaa244-56dd-470e-8f58-2d54df4dd0cc)  
 ![KakaoTalk_20231028_154051915](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/b5c9a6c9-7cbe-47d4-9eed-2cb5127b063b)
 
 
