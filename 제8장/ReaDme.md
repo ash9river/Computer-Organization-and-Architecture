@@ -58,3 +58,39 @@
 
 <br/>
 <br/>
+
+## Early Systems
+
+- no OS 시절에 생기는 문제들
+    - 스케쥴링
+        - 유저가 시스템을 일찍 종료하면 컴퓨터의 자원이 낭비됨 
+    - 셋업 타임
+        - 컴파일러$+$소스 프로그램이 메모리에 로딩됨
+        - 단일 프로그램을 돌릴 때도 사용되서 낭비됨
+
+<br/>
+<br/>
+
+## 메모리 레이아웃
+
+<img width="80%" height="80%" src="(https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e3fa45b-fd7b-420a-a382-0f790e4a8b31">
+
+<br/>
+
+## 바람직한 하드웨어의 특징들
+
+- `메모리 보호(Memory Protection)`
+- `명령어 특권(Privileged Instruction)`
+- `타이머`
+- `인터럽트`
+
+> OS에 friedly하게 발전
+
+<br/>
+
+### OS를 통하여 발생하는 이득
+
+- 멀티프로그래밍으로 시간 단축
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7037994e-3b0c-421b-b3d2-ed7f0d03019d">
+
