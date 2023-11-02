@@ -24,7 +24,21 @@
   
 </details>
 
+<br/>
+<br/>
 
+## 인터페이스
 
+-  전형적인 컴퓨터 시스템에 있는 중요한 인터페이스들
+    - `ISA(Instruction Set Architecture)` 
+    - `ABI(Application Binary Interface)`
+    - `API(Application Programming Interface)`
+ 
+<br/>
+<br/>
+
+## 운영 체제에 대한 자원 관리자로서의 관점
+
+- OS
 
 
