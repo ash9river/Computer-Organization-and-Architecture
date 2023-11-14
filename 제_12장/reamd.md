@@ -1,4 +1,4 @@
-# 명령어 세트 : 특성과 기능
+ㅌ# 명령어 세트 : 특성과 기능
 
 ## 기계 명령어의 특성
 
@@ -122,9 +122,28 @@
 
 - n 비트 단위를 각 항목이 0이나 1을 가지는 n개의 1 비트 데이터 항목으로 간주한다.(bit 단위 구분 사용)
 
+<br/>
+
+### x86 수치 데이터 유형들
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dfb21e25-77c5-418f-bc63-f9975e9ac718">
 
+<br/>
+<br/>
 
+## SIMD(Single-Instruction-Multiple-Data)
 
+- 멀티미디어 응용들의 성능들을 최적화하기 위한 명령어 세트 확장의 일부로 x86 구조에 소개되었다.
+- MMX(MultiMedia Extensions)와 SSE(Streaming SIMD Extensions)를 포함한다.
+- 데이터 유형들
+  - `밀집형 바이트 및 밀집형 바이트 정수` : 8 bytes (64-bit 규격) or 16 bytes (128-bit 규격)
+  - `밀집형 단어 및 밀집형 단어 정수` : 4 words (64-bit 규격) or 8 words (128-bit 규격)
+  - `밀집형 2중 단어 및 밀집형 2중 단어 정수` : 2 double words (64-bit 규격) or 4 double words (128-bit)
+  - `밀집형 4중 단어 및 밀집형 4중 단어 정수` : 2 quad words (128-bit 규격)
+  - `밀집형 단일-정밀도 부동-ㅅ소수점 및 밀집형 복수-정밀도 부동-소수점` : 2 single-precision floating-points (64-bit 규격) or 2 double-precision floating-poings (128-bit 규격)
+
+<br/>
+<br/>
+
+## ARM 데이터 유형들 
 
