@@ -94,3 +94,22 @@
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7037994e-3b0c-421b-b3d2-ed7f0d03019d">
 
+<br/>
+<br/>
+
+## Time Sharing System
+
+- 유저가 직접 컴퓨터와 상호작용할 때 사용한다.
+- 프로세서의 시간대가 다른 여러 유저들에 의해 공유된다.
+- 여러 유저들이 터미널을 통하여 동시에 시스템에 접속할 때, OS는 각 유저 프로그램들의 실행을 상호 배치한다.
+
+<br/>
+
+### Batch Multiprogramming vs Time Sharing
+
+||Batch Multiprogramming|Time Sharing|
+|:---|---|---|
+|주 목표|프로세서 활용의 극대화|응답 시간 최소화|
+|운영 체제의 지침 원천|잡이 언어를 제어한다(JCL)|터미널에 명령 입력|
+||명령이 잡에 의해 제공된다||
+
