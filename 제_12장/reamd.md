@@ -222,4 +222,22 @@
   - `프로시저 호출(procedure call)` 
 
 
+<br/>
+<br/>
+
+### 내포된 프로시저 구현을 위한 스택의 사용
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/eb86002a-c2df-4a14-9e19-839b1df11155">
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/4181a517-882e-4764-8f20-208394ccb085">
+
+
+
+
+
+
+
+
 
