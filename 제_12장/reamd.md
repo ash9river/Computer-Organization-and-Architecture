@@ -41,11 +41,12 @@
 [참고하기](https://github.com/ash9river/Computer-Organization-and-Architecture/blob/main/%EC%A0%9C3%EC%9E%A5/READMD.md#%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EB%A5%BC-%ED%8F%AC%ED%95%A8%ED%95%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%83%81%ED%83%9C%EB%8F%84)
 
 <br/>
-<br/>
 
 ## 명령어 표현
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/8c31f0e7-2cc1-44d4-bc66-817dbcb654e5">
+
+<br/>
 
 - 연산코드(Opcode)들은 니모닉스(mnemonics)라는 약어에 의해 표현된다.
 - 오퍼랜드를 기호적으로 표현하는 방식이다.
@@ -108,9 +109,18 @@
 
 <br/>
 
-## 문자
+### 문자(Character)
 
--
+- 데이터의 전형적인 한 형태는 문장(text)이나 문자열(character string)
+- 문자 데이터가 사람에게 가장 편하지만 데이터 처리 및 통신 시스템에서는 저장 또는 전송이 어렵다.
+- 가장 많이 사용되는 문자 코드는 IRA(International Reference Alphabet)
+- 저장만 표준을 따르고, 해석은 CPU가 다르게 한다.(아스키 코드의 제어문자)
+
+<br/>
+
+### 논리 데이터
+
+- 
 
 
 
