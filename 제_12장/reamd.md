@@ -120,10 +120,10 @@
 
 ### 논리 데이터
 
-- 
+- n 비트 단위를 각 항목이 0이나 1을 가지는 n개의 1 비트 데이터 항목으로 간주한다.(bit 단위 구분 사용)
 
 
-
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dfb21e25-77c5-418f-bc63-f9975e9ac718">
 
 
 
