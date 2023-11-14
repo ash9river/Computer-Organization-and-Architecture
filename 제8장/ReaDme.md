@@ -108,7 +108,7 @@
 ### Batch Multiprogramming vs Time Sharing
 
 ||Batch Multiprogramming|Time Sharing|
-|:---|:---:|:---:|
+|:---|---|---|
 |주 목표|프로세서 활용의 극대화|응답 시간 최소화|
 |운영체제에게 특정 작업을 수행하도록<br>지시하는 명령이 발생하는 소스|잡이 언어를 제어한다(JCL)<br>명령이 잡에 의해 제공된다|터미널에 입력되는 명령|
 
