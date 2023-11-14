@@ -231,10 +231,16 @@
 
 <br/>
 
+### 샘플 프로시저를 아용한 스택 프레임의 증가
+
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/4181a517-882e-4764-8f20-208394ccb085">
 
+<br/>
+<br/>
 
+## x86 단일 명령어, 복수 데이터(SIMD) 명령어들
 
+-
 
 
 
