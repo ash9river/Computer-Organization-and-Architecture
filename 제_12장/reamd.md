@@ -59,13 +59,58 @@
 |0001|SUB|Subtract|
 |0002|MUL|Multiply|
 
+<br/>
 
+### 명령어의 유형들
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/64cf9b23-ff48-4e3a-92f6-1a3b7c061ca5">
 
+<br/>
+<br/>
 
- 
+## 주소의 개수
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/af31e886-ca07-4c66-aab2-5f4a01f469c7">
 
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/edbd125d-22e1-4e2d-8878-6521e575f779">
+
+<br/>
+
+## 명령어 세트 설계
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/9a1d1570-64c8-42a6-ab06-dd32d7778187">
+
+<br/>
+<br/>
+
+## 오퍼랜드의 유형
+
+- `주소`
+- `수`
+- `문자`
+- `논리 데이터`
+
+<br/>
+
+### 수
+
+- 모든 기계어들은 수치적 데이터 유형ㄷ 포함
+- 컴퓨터에 저장된 수는 한계(크기 또는 정확도의 제한)가 있다. (비트제한)
+- 컴퓨터에서 사용되는 세 가지 유형의 수치 데이터
+  - 2진 정수 or 2진 고정 소수점
+  - 2진 부동 소수점
+  - 10진수
+- 밀접형 10진수(packed decimal)
+  - 각 10진 디지트(decimal digit)는 4 비트 코드로 표현 
+  - 수들을 표현하기 위하여 4 비트 코드들이 서로 연결되는데, 그것이 항상 8비트의 배수로 이루어진다.
+
+<br/>
+
+## 문자
+
+-
 
 
 
