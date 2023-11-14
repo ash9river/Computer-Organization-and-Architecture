@@ -121,3 +121,6 @@
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5178a021-edac-4428-a5eb-fee699a4e003">
 
 <br/>
+<br/>
+
+## Long-Term 스케쥴링
