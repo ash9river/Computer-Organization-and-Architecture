@@ -147,3 +147,26 @@
 
 ## ARM 데이터 유형들 
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/84900405-0392-4db8-a20f-548f296366b1">
+
+<br/>
+
+## ARM 엔디언 지원
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d652f193-3718-4c45-adfd-5e1020f5dc12">
+
+<br/>
+<br/>
+
+### 데이터 전송시 반드시 명시해야 할 사항들
+
+- 원천지(source) 및 목적지(destination) 오퍼랜드(operand)의 위치
+- 전송될 데이터의 길이
+- 오퍼랜드의 주소 지정 방식
+
+
+
+
+
+
+
