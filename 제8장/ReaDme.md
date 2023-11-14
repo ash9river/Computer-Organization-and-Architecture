@@ -113,3 +113,11 @@
 |운영 체제의 지침 원천|잡이 언어를 제어한다(JCL)|터미널에 명령 입력|
 ||명령이 잡에 의해 제공된다||
 
+<br/>
+<br/>
+
+## 스케쥴링
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5178a021-edac-4428-a5eb-fee699a4e003">
+
+<br/>
