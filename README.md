@@ -1,6 +1,7 @@
 # Computer-Organization-and-Architecture
 
 공부중💤
+> 교수님 미워요
 
 <br/>
 
