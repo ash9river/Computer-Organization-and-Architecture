@@ -145,6 +145,7 @@
 
 > 일반적으로 스케줄러라고 하면, 단기 스케줄러를 의미하며 미리 정한 스케줄링 알고리즘에 따라서 CPU를 할당할 process를 선택한다.
 
+<br/>
 
 ## 프로세스 모델의 5가지 상태
 
@@ -152,5 +153,70 @@
 
 <br/>
 <br/>
+
+## 프로세스 제어 블록
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/9b761871-374b-40f6-a166-8ef0c2ebc0b5">
+
+<br/>
+<br/>
+
+### 스케쥴링 예시
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/51681354-0760-448c-8071-f72844c9fabe">
+
+<br/>
+<br/>
+
+## OS의 키 엘리먼트
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/a5002b0c-aece-483a-8d1e-1c6077bb5888">
+
+<br/>
+<br/>
+
+## 프로세스 스케쥴링
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/4991c12b-ff73-43f0-813f-e23b8dab3316">
+
+
+<br/>
+<br/>
+
+## 메모리 관리 : 스와핑
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/69f10fa2-2684-4c11-923f-e996df5d9972">
+
+<br/>
+<br/>
+
+## 메모리 관리 : 파티셔닝
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f2c25cf8-b37d-4baa-a53d-fd0cb82e0670">
+
+<br/>
+<br/>
+
+## 다이나믹 파티셔닝의 효과
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/cbb3b0cc-2031-4c8e-a5d3-ee00a293a033">
+
+
+<br/>
+<br/>
+
+## 메모리 관리 : 페이징
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/972100f9-e4bc-497f-a970-554d68f915c8">
+
+<br/>
+<br/>
+
+
+
+
+
+
+
 
 
