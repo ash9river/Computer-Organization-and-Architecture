@@ -73,7 +73,7 @@
 
 ## 메모리 레이아웃
 
-<img width="80%" height="80%" src="(https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e3fa45b-fd7b-420a-a382-0f790e4a8b31">
+<img width="80%" height="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6e3fa45b-fd7b-420a-a382-0f790e4a8b31">
 
 <br/>
 
