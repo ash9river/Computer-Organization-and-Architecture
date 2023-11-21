@@ -258,9 +258,9 @@
 <br/>
 <br/>
 
-## PLus
+## 매커니즘
 
-<img height="80%" width="80%" src="
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/58ecc641-f344-4500-8a76-0a26db1f6143">
 
 <br/>
 <br/>
