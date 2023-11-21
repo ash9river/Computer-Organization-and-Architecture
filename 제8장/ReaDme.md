@@ -231,8 +231,22 @@
   2) 시간(temporal) 지역성 : 최근 사용되었던 기억 장소들이 집중적으로 액세스 되는 경향으로, 참조했던 메모리는 빠른 시간에 다시 참조될 확률이 높다.
   3) 순차(sequential) 지역성 : 데이터가 순차적으로 액세스 되는 경향. 프로그램 내의 명령어가 순차적으로 구성되어있다는 것이 대표적인 경우.
 
+## 반전 페이지 테이블 구조
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d1fa5a91-d62d-40ef-af81-a042ecdd23ea">
 
+<br/>
+<br/>
+
+## TLB
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d0506110-546e-4173-933e-f53a5615b4e2">
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dbffbf35-3049-48d0-9471-56f98a41ea34">
+
+<br/>
+
+<br/>
 
 
 
