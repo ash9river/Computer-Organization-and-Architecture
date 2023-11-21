@@ -245,9 +245,24 @@
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dbffbf35-3049-48d0-9471-56f98a41ea34">
 
 <br/>
+<br/>
+
+## Segmentation
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/cf826c58-f8f2-4d20-9037-60f3a7aae270">
 
 <br/>
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e43a37ad-9e21-4b32-b07e-68eb4d6a1c14">
 
+<br/>
+<br/>
+
+## PLus
+
+<img height="80%" width="80%" src="
+
+<br/>
+<br/>
 
 
