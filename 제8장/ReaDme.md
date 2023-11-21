@@ -238,7 +238,7 @@
 <br/>
 <br/>
 
-## TLB
+## Translation Lookaside Buffer(TLB)
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d0506110-546e-4173-933e-f53a5615b4e2">
 
