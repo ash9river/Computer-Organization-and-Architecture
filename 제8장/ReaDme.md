@@ -133,7 +133,7 @@
 ## Medium-Term 스케쥴링과 Short-Term Scheduling
 
 - `Medium-Term`
-  - 너무 많은 process에 메모리를 할당해서 시스템의 성능이 저하되는 경우에, 메모리에 적재된 process의 수를 조절하기 위한 스케줄러이다.
+  - 너무 많은 process에 메모리를 할당해서 시스템의 성능이 저하되는 경우에, 메모리에 적재된 process의 수를 조절하기 위한 스케줄러다.
   - 주로 swapping을 통해 문제를 해결한다.
   - swapping-in decision은 멀티프로그래밍 차수를 관리의 필요성에 기반한다.
   - swapping-in decision은 swapped-out process의 메모리 요구 조건 또한 고려한다.
