@@ -7,7 +7,13 @@
 
 ## ☑ 컴퓨터시스템 구조론
 
-<div style="text-decoration: none;">
+<style>
+  .no-decoration-links {
+    text-decoration: none;
+  }
+</style>
+
+<div class="no-decoration-links">
   
 1. [기본 개념과 컴퓨터 발전과정](/제1장)
 2. [성능 문제](/제2장)
