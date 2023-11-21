@@ -124,3 +124,33 @@
 <br/>
 
 ## Long-Term 스케쥴링
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/3b963438-9faa-4bf8-a8d4-36708f76eecd">
+
+<br/>
+<br/>
+
+## Medium-Term 스케쥴링과 Short-Term Scheduling
+
+- `Medium-Term`
+  - 너무 많은 process에 메모리를 할당해서 시스템의 성능이 저하되는 경우에, 메모리에 적재된 process의 수를 조절하기 위한 스케줄러이다.
+  - 주로 swapping을 통해 문제를 해결한다.
+  - swapping-in decision은 멀티프로그래밍 차수를 관리의 필요성에 기반한다.
+  - swapping-in decision은 swapped-out process의 메모리 요구 조건 또한 고려한다.
+-  `Short-Term`
+   - CPU 스케줄러(CPU Scheduler)라고도 불린다.
+   - ready 상태의 process 중에서 어떤 process를 다음 번에 running(실행) 상태로 만들지 결정한다.
+
+<br/>
+
+> 일반적으로 스케줄러라고 하면, 단기 스케줄러를 의미하며 미리 정한 스케줄링 알고리즘에 따라서 CPU를 할당할 process를 선택한다.
+
+
+## 프로세스 모델의 5가지 상태
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/1b0bfa49-7563-4f56-94ca-cbc8d84b7b6e">
+
+<br/>
+<br/>
+
+
