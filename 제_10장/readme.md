@@ -54,16 +54,18 @@
 |-|양의 정수에 대응되는 각 비트의 불리언 보수를 취하고, 1을 더한다.|
 |비트 길이 확장|왼쪽으로 비트를 확장시키고, 그 비트를 sign bit와 같은 비트로 다 채운다.|
 |오버플로우 규칙|두 수가 같은 부호이며 오버플로우가 일어나면, 해당 sign bit와 반대되는 부호로 바뀐다.|
-|뺄셈 규칙|A-B는 B를 2의 보수를 취하고,A에 더한다.|
+|뺄셈 규칙|A-B는 B를 2의 보수를 취하고, A에 더한다.|
 
+<br/>
 
+### 참고자료
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d8e3176a-60a3-441f-84e3-732deb3bd0a8">
 
+<br/>
+<br/>
 
-
-
-
-
+## 범위 확장
 
 
 
