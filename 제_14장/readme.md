@@ -18,7 +18,7 @@
 
 ### 시스템 버스와 접속된 CPU
 
-<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/eebf8eb3-a1ec-4ce2-9a7d-6f4f4a8d324">
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d8475fad-b826-4a76-acb2-c666f9bb7fcb">
 
 <br/>
 
