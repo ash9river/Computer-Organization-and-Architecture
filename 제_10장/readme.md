@@ -94,14 +94,95 @@
 |+18|=|00010010|
 |비트 단위 보수|=|11101101|
 |연산|+|1|
-|-18|=|11101110
+|-18|=|11101110|
 
+- 그 음수화된 수의 음수화는, 다시 원점회귀
 
+|수식|내용||
+|---:|---|---:|
+|-18|=|11101110|
+|비트 단위 보수|=|00010001|
+|연산|+|1|
+|+18|=|00010010|
 
+- 음수화의 특수 경우
+  - `0의 two's complement` 
+    - 오버플로우가 무시된다.
+  - `-128의 two's complement`
+    - 똑같이 -128이 된다. 
 
+## 덧셈
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/19ebc9b7-bff1-4e08-84c2-946d2c0e296c">
 
+## 뺼셈
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c7d2a7a2-70ad-4d67-af07-072c8523b85a">
+
+<br/>
+
+### 규칙
+
+- `오버플로우 규칙`
+  - *Flag 체크* : 두 수들이 더해질 때, 두 수들이 모두 양수이거나, 음수이지만, 결과가 반대의 부호이먄 오버플로우가 발생한 것이다.
+- `뺄셈 규칙`
+   -  어떤 수(subtrahend)를 다른 수(minuend)에서 빼기 위해서는, 어떤 수(subtrahend)의 two's complement(*Negation*)를 취하고 그 수를 다른 수(minuend)와 더한다.
+
+<br/>
+<br/>
+
+## two's complement 기하학적 표현
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f317d641-4517-4799-b5de-aac78fde70a7)">
+
+<br/>
+<br/>
+
+## 덧셈 및 뺄셈을 위한 하드웨어
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/40740a93-8974-4882-b9f6-725c52279b98)">
+
+<br/>
+<br/>
+
+## 곱셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/93466d5d-b29f-401a-b2b1-7333b5156eba">
+
+<br/>
+<br/>
+
+### 보호(Gaurd) 없는 이진 곱셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5d6b00f8-6392-455a-ad95-97a1176c897c">
+
+### 2의 보수 곱셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7352dd8f-5766-4e6b-8efc-96d34ca4fc13">
+
+<br/>
+<br/>
+
+## Booth Algorithm
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c9c37aa2-2eae-498f-b319-89c264122db2">
+
+<br/>
+<br/>
+
+## 나눗셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bcf8c748-5082-42d5-904d-02c7d6c605bd">
+
+<br/>
+<br/>
+
+### Sign 나눗셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/912fc371-a44f-4fea-99df-15d7d8e43e9f">
+
+<br/>
+<br/>
 
 
 
