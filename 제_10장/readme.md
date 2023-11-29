@@ -269,13 +269,22 @@ $$
 ## IEEE 754 Format and Parameter
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bf8f2506-55ce-4411-b150-5806acb0900d">
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e4ec02e5-75b6-4e7c-a2f6-c2752f1d254e">
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f4c73dc4-a155-4a9e-8664-5f4c0ca06bbd">
 
 <br/>
 <br/>
 
+## 확장된 형식
 
-
-
+- `확장된 정밀도 형식(Extended Precision Format)`
+  - 지수에 추가적인 비트들(확장된 범위)을 제공하고, 가수에도 추가적인 비트(확장된 정밀도)를 제공한다.
+  - 확장된 형식들은 과도한 *반올림 오류(roundoff error)* 에 의해 최종 결과가 손상될 가능성을 줄여준다.
+  - 범위가 더 커짐에 따라 최종 결과 값이 기본 형식에서 표현될 수 있는, 계산이 *중간 오버플로우(intermediate overflow)* 가 중단시킬 가능성을 줄여준다.
+  - 정밀도가 높아질 때, 발생하는 시간 패널티를 발생시키지 않고 더 큰 기본 형식의 이점을 누릴 수 있다.
+- `확장 가능한 정밀도 형식(Extendable Precision Format)`
+  - 정밀도 및 제어가 사용자 제어 하에서 정의된다.
+  - 중간 계산을 위해 사용될 수도 있지만, 표준은 형식이나 길이에 어떠한 제한도 두지 않는다. 
 
 
 
