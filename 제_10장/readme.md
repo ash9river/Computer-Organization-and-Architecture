@@ -208,13 +208,21 @@
 
 $$
   0.110 \times 2^{5}
+$$
+
+$$
   110 \times 2^{2}
+$$
+
+$$
   0.0110 \times 2^{6}
 $$
 
 - 정규화된 수(normalized number)
   - 가수의 가장 중요한 숫자(most significant digit)가 0이 아닌 값(non-zero)로 표현
-    - $$ \pm 1.bbbb...b \times  2^{ \pm E} $$ 
+$$
+  \pm 1.bbbb...b \times  2^{ \pm E}
+$$ 
 
 
 
