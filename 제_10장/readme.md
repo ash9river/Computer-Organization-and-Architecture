@@ -209,7 +209,7 @@
 $$
   0.110 \times 2^{5}
   110 \times 2^{2}
-  0.0110 \times 2^6}
+  0.0110 \times 2^{6}
 $$
 
 - 정규화된 수(normalized number)
