@@ -246,9 +246,32 @@ $$
 
 ## IEEE 표준 754
 
+- 가장 중요한 부동-소수점 표현이 정의됨
+- 프로세서들 간의 이식성(portability)을 향상시키는 것과 복잡한 수리-중심 프로그램들(numerically-oriented programs)의 개발을 용이하기 위하여 개발되었다.
+- IEEE 754-2008은 이진 및 십진 부동-소수점 표현을 모두 다루고 있다.
 
+<br/>
 
+### IEEE 754-2008
 
+- 아래와 같은 여러 가지 형태의 부동-소수점 정의
+  - `산술적 형식(Arithmetic Format)`
+    - 표준에 의해 정의된 모든 필수적인 연산들이 이 형식에 의하여 지원된다.
+    - 표준에서 설명된 부동-소수점 operand or 연산의 결과들을 표현하는데 사용될 수도 있다.
+  - `기본 형식(Basic Format)`
+    - 이 형식은 다섯 가지 부동-소수점 표현들을 다루고 있는데, 세 가지의 이진 표현과 두 가지의 십진 표현이다.
+    - *encoding*는 표쥰에 의해 지정되며, 산술을 위해 사용될 수 있다.
+  - `상호 교환 형식(Interchange Format)`
+    - 서로 다른 플랫폼들 간에 데이터 상호 교환을 허용하고, 저장을 위해 사용될 수 있는, 완전히 규격화된 고정-길이의 이진 *encoding*이다.
+   
+<br/>
+
+## IEEE 754 Format and Parameter
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bf8f2506-55ce-4411-b150-5806acb0900d">
+
+<br/>
+<br/>
 
 
 
