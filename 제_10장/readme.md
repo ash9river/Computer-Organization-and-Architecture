@@ -12,7 +12,7 @@
 
 <br/>
 
-### ALU의 입력 및 출력들
+## ALU의 입력 및 출력들
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/667ee0a9-b0cb-433b-9e5a-b12d03b9a5e4">
 
@@ -183,6 +183,51 @@
 
 <br/>
 <br/>
+
+## 부동-소수점 표현(Float-Point Representation)
+
+- fixed-point가 컴퓨터에서 사용하기엔 비효율적이라서 나온 표현
+- 고정 이진(fixed binary) 혹은 기수 소수점(radix point)이 있다고 가정하면 소수(fraction)도 표현할 수 있다.
+- 매우 큰 수와 매우 작은 수는 나타낼 수 없다.
+- 매우 큰 두 수의 나눗셈에서 몫의 분수 부분을 잃어버릴 수 있다.
+
+<br/>
+<br/>
+
+## 전형적인 32 비트 부동-소수점 형식
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/4137c42a-7df7-403b-9925-ed4be6e1512f">
+
+<br/>
+<br/>
+
+## 부동-소수점 가수(Significand)
+
+- 단어의 마지막 부분
+- 부동-소수점 수는 여러 가지 방법으로표현 가능하다.
+
+$$
+  0.110 \times 2^{5}
+  110 \times 2^{2}
+  0.0110 \times 2^6}
+$$
+
+- 정규화된 수(normalized number)
+  - 가수의 가장 중요한 숫자(most significant digit)가 0이 아닌 값(non-zero)로 표현
+    - $$ \pm 1.bbbb...b \times  2^{ \pm E} $$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
