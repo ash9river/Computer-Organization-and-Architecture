@@ -286,6 +286,40 @@ $$
   - 정밀도 및 제어가 사용자 제어 하에서 정의된다.
   - 중간 계산을 위해 사용될 수도 있지만, 표준은 형식이나 길이에 어떠한 제한도 두지 않는다. 
 
+## 부동-소수점 덧셈 및 뺄셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/710c2985-ff79-4476-98a8-266b63493d5d">
+
+<br/>
+<br/>
+
+## 부동-소수점 곱셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/46ee6401-7d45-4d9b-bcae-22e63213be5d">
+
+<br/>
+<br/>
+
+## 부동-소수점 나눗셈
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/644cca59-186a-4dfc-87ab-4f7f23c0475f">
+
+<br/>
+<br/>
+
+## 정밀도 문제
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/540401c0-d2ab-4418-9cc9-d89941d6a849">
+
+<br/>
+<br/>
+
+
+
+
+
+
+
 
 
 
