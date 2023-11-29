@@ -314,11 +314,18 @@ $$
 <br/>
 <br/>
 
+## 간격 산술
+
+## 버림
+
+## 이진 부동-소수점 산술을 위한 IEEE 표준
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/691c0fc6-1c04-4f2c-924e-1ae9ca956f72">
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dce4ad80-52af-43a1-8ace-2cf83b9f86a3">
 
 
-
-
-
+<br/>
+<br/>
 
 
 
