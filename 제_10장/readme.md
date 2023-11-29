@@ -220,16 +220,31 @@ $$
 
 - 정규화된 수(normalized number)
   - 가수의 가장 중요한 숫자(most significant digit)가 0이 아닌 값(non-zero)로 표현
-  - 
+  
 $$
   \pm 1.bbbb...b \times  2^{ \pm E}
-$$ 
+$$
 
+> 위의 표현에서 b는 이진수 0 or 1 중 하나
 
+<br/>
+<br/>
 
+## 부동-소수점 표현의 표현 가능한 수의 범위
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2c03b50f-b2c8-4584-8836-67bbcfa8da97">
 
+<br/>
+<br/>
 
+## 부동-소수점 밀도
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/58bee29b-d590-401f-889b-2a2843f5ea78">
+
+<br/>
+<br/>
+
+## IEEE 표준 754
 
 
 
