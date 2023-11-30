@@ -96,19 +96,31 @@
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/baeb82f1-e4b6-41c8-895a-843c852e8c18">
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/13f5959f-b1b0-458f-99d3-50a9f4346ad4">
+
 <br/>
 <br/>
 
-![KakaoTalk_20231130_160520636]()
+## 데이터 흐름
+
+### 인출 사이클
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/94b712c8-d4e5-4110-8f7f-01d16ba0998a)">
+
+<br/>
+
+### 간접 사이클
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/83dbbfb3-d8bd-4f60-9c8b-e51d3ed96bd2">
+
+<br/>
 
 
+### 인터럽트 사이클
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/9fd86bac-a54c-47d5-832b-166fda8c3fe6">
 
+<br/>
+<br/>
 
-
-
-
-
-
-
-
+## 파이프라인 기법
