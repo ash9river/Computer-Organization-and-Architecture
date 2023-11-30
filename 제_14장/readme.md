@@ -49,9 +49,13 @@
   - `주소 레지스터들` : 대체로 일반 목적용으로 사용된다. 세그먼트 포인터, 인덱스 레지스터, 스택 포인터 등이 있다.
   - `조건 코드들` : 플래그(flag)라고도 하고, 연산의 결과로서 프로레서에 의해 세트된다(Read-Only).
 
+### 조건 코드들
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/71f3e01a-ce9e-4558-9cba-432dc818843c">
 
+<br/>
 
+### 제어 및 상태 레지스터들
 
 
 
