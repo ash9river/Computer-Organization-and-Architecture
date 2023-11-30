@@ -180,11 +180,29 @@
 ## 파이프라인 해저드
 
 
+- 명령어의 조건들이 파이프라인 실행을 계속하는 것을 허용하지 않게 만듦으로써  파이프라인 전체 또는 일부가 멈출 때(stall), 해저드가 발생한다.
+- 파이프라인 버블(pipeline bubble)이라고도 부른다.
+- 세 가지 유형의 해저드
+  - `자원(resourece)`
+  - `데이터(data)`
+  - `제어(control)`
 
+### 자원 해저드(Resource Hazard)
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/795e3c20-6df3-4301-a8de-7a26ef40129f">
+
+- 자원 충돌 : 하드웨어가 여러 명령들의 수행을 지원하지 않기 때문에 발생한다.
+- 폰노이만 구조 : 프로세서의 구조적인 이유때문에 실행이 불가하다.
+
+<br/>
+
+### 데이터 해저드
     
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/51462512-a686-4fbf-97e0-2937dbb247ce">
+
 <br/>
 <br/>
 
+![KakaoTalk_20231130_170857114]()
 
 
