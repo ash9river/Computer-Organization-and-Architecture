@@ -1,7 +1,7 @@
 # Computer-Organization-and-Architecture
 
 공부중💤
-> 교수님 미워요
+> 교수님 미워요.
 > 필기 해야되는게 너무 많아요.
 
 <br/>
