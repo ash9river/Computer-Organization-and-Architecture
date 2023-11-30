@@ -149,6 +149,38 @@
 1. `오퍼랜드 저장(Write Operand)`
     - 결과를 기억장치에 저장한다.
 
+<br/>
+<br/>
+
+## 명령어 파이프라인 연산
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/549467e6-ec20-43cc-b341-3ab3926a563a">
+
+<br/>
+
+### 6단계 명령어 파이프라인
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/be468a34-f73c-483a-98fb-2b72452d5945">
+
+<br/>
+
+### 파이프라인의 다른 표현
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/0943e61d-7071-49d5-a66e-88983c91f57e">
+
+<br/>
+
+### 명령어 파이프라이닝에 따른 속도 향상
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/db64a304-2e8b-490e-a6b3-7672fd683342">
+
+<br/>
+<br/>
+
+## 파이프라인 해저드
+
+
+
 
     
 <br/>
