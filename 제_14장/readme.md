@@ -82,16 +82,24 @@
 > 🎆 정보를 피난시키는데 오래 걸려서 사용한다
 > 🎇 PSW를 사용하지 않으면 가상 메모리를 사용할 수 없다.
 
+<br/>
+<br/>
 
+### 마이크로 프로세서 레지스터 조직의 예
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/99663537-e8da-4dbe-8ac0-d7d3582417f7">
 
+<br/>
+<br/>
 
+## 명령어 사이클
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/baeb82f1-e4b6-41c8-895a-843c852e8c18">
 
+<br/>
+<br/>
 
-
-
-
+![KakaoTalk_20231130_160520636]()
 
 
 
