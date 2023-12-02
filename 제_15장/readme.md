@@ -50,7 +50,7 @@
 <br/>
 <br/>
 
-## RISC의 큰 파일의 레지스터 사용
+## RISC의 큰 레지스터 파일의 사용
 
 - 소프트웨어 해결책
   - 컴파일러가 레지스터의 사용 극대화
@@ -78,11 +78,39 @@
 
 ## 전역 변수들(Global Variables)
 
-- 고급 언어에서 전역(global)로 선언된 변수들에게 컴파일러가 기억장치 내 장소들을 지정할 수 있고, 
+- 고급 언어에서 전역(global)로 선언된 변수들에게 컴파일러가 기억장치 내 장소들을 지정할 수 있다.
+  - 이 변수들을 참조하는 모든 기계 명령어들은 기억장치-참조 오퍼랜드를 사용한다.
+  - 자주 액세스되는 전역 변수들에 대해서는 비효율적이다.
+- 다른 방법으로 CPU 내에 전역 레지스터 세트(Global Registor Set)를 둔다.
+  - 레지스터들은 수가 고정되어 있고, 모든 프로시저에 의해 이용될 수 있다.
+  - 레지스터의 번호를 단순하게 지정하면 명령어 형식이 간단해진다.
+- 레지스터들을 서로 다른 주소 지정 방식으로 분리하면 하드웨어에 대한 부담이 늘어난다.
 
+![KakaoTalk_20231202_215131753](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f2a2c9f7-2c0a-4ba1-924e-544c218de8c3)
 
+### 큰 레지스터 파일 대 캐시 조직의 특성들
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/ab9e09da-e46b-4520-aa60-a6c5f467161d">
 
+<br/>
+
+### 스칼라의 참조
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/ff191330-40d2-4f46-82d7-d38a00480ef8">
+
+<br/>
+<br/>
+
+## 그래프 컬러링
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/e8eecd03-0d91-4d17-aa6b-79e77f3444f0">
+
+<br/>
+<br/>
+
+## 왜 CISC인가?
+
+- 
 
 
 
