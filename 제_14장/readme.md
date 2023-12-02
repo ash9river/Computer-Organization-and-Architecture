@@ -200,6 +200,7 @@
     
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/51462512-a686-4fbf-97e0-2937dbb247ce">
 
+- 오퍼랜드 위치에 대한 액세스의 충들이 있을 때 발생한다.
 - 앞에 실행될 명령어의 결과가 다음 명령어에 이어서 사용되야 해서 발생되는 문제
 - 이 이미지는 RAW(Read After Write), 이전 명령어가 저장한 연산 결과를 후속 명령어가 읽어야할 때, 발생하는 데이타 해저드의 상태도를 나타낸다. 
 
@@ -207,7 +208,8 @@
 
 ### 데이터 해저드의 유형들
 
-- `
+- `쓰기 후 읽기(Read After Read:RAW)` : 순수 의존성으로 불린다.
+  - 어떤 명령어가 레지스터 혹은 기억장치의 
 
 
 
