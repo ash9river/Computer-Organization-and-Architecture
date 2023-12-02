@@ -132,7 +132,7 @@
 
 ## 축소 명령어 세트 구조의 특성들
 
-<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/842c8b8e-fbaa-4443-a20e-524d03a8e924
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/842c8b8e-fbaa-4443-a20e-524d03a8e924">
 
 <br/>
 
