@@ -1,4 +1,4 @@
-![image](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/3bef4ead-eb4c-4a76-8533-7fc1f978124f)# 축소 명령어 세트 컴퓨터 : RISC
+# 축소 명령어 세트 컴퓨터 : RISC
 
 > 들어가기에 앞서, 컴퓨터 조직과 아키텍처의 저자는 RISC를 CISC보다 좀 더 좋다는 편향적인 생각을 가지고 있음을 밝힌다.
 
