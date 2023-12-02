@@ -322,7 +322,28 @@
 - `되쓰기(Write Back)`
   - 앞의 실행 단계 동안 수정된 레지스터들과 상태 플래그들을 갱신한다.     
 
+<br/>
 
+### 80486 명령어 파이프라인의 사례
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/b6dfdbe2-199c-4075-8d16-9b8173c8e377">
+
+## 레지스터들
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/5926c193-107d-402b-a4b3-01720837fe94">
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/df666b5a-f1bd-4d2a-8b83-9c9bda8d7f9b">
+
+<br/>
+
+### MMX 레지스터를 부동-소수점 레지스터로 사상
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fb05be29-abc4-424c-b2c3-1c1e73b4cc81">
+
+<br/>
+<br/>
 
 
 
