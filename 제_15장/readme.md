@@ -17,7 +17,7 @@
 
 ## 명령어 실행 특성들
 
-<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dc138aa2-ad08-4e89-babd-ea214f774425
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/dc138aa2-ad08-4e89-babd-ea214f774425">
 
 <br/>
 
