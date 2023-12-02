@@ -360,6 +360,20 @@
   - 모든 형태의 인터럽트에는 어떤 번호가 지정되며,
   - 그 번호는 인터럽트 벡터 표 내에서의 인덱스로 사용된다. 
 
+### x86 예외 및 인터럽트 벡터 표
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bd8efd61-d804-45fd-9cb1-bee66982a62f">
+
+<br/>
+
+## ARM 프로세서
+
+
+
+
+
+
+
 
 
 
