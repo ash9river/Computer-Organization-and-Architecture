@@ -2,7 +2,7 @@
 
 > 들어가기에 앞서, 컴퓨터 조직과 아키텍처의 저자는 CISC보다 RISC가 좀 더 좋다는 편향적인 생각을 가지고 있음을 밝힌다.
 
-## RISC vs CISC
+## RISC vs CISC  
 
 - *Computer*
   - `CISC(Complex : *intel PC*)` : 복잡한 data access(High Level Language에 최적화)
@@ -110,7 +110,74 @@
 
 ## 왜 CISC인가?
 
-- 
+- 명령어 세트는 점점 명령어의 수가 많아지고 더 복잡해진다.
+  - 그 이유들
+    1. 컴파일러의 단순화 : C(HLL) -> Compiler -> 기계어
+    2. 성능 향상
+- 프로그램이 짧아짐에 따른 두가지 이점
+  1. 프로그램이 기억장치를 적게 차지하므로 자원(기억장치 공간)이 절약된다.
+  2. 성능이 향상된다.
+     - 명령어들의 수가 적어지면 인출할 명령어 바이트의 수가 감소한다.
+     - 페이징(paging)이 사용될 경우, 짧은 프로그램은 페이지를 적게 차지하므로, 페이지 부재(page fault)가 감소한다.
+     - 더 많은 명령어들을 캐시에 적재할 수 있다.
+
+<br/>
+
+### RISC와 비교한 CISC의 상대적 코드 크기
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/ce69328b-e21f-4313-923f-33d0139c554c">
+
+<br/>
+<br/>
+
+## 축소 명령어 세트 구조의 특성들
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/842c8b8e-fbaa-4443-a20e-524d03a8e924
+
+<br/>
+
+### 레지스터 간 방식과 기억 장치 간 방식의 비교
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d91be11d-8fd3-4319-82d6-c7d72f85f0fa">
+
+<br/>
+
+### 몇 가지 프로세서들의 비교
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/ae79728c-2417-4776-8a6b-6df89429f640">
+
+<br/>
+<br/>
+
+## 스테이지에 따른 파이프라인의 효과
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/8d7c1703-3f55-4b14-b9ab-a364ddb1b7c2">
+
+<br/>
+
+### 파이프라이닝의 최적화
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 
 
 
