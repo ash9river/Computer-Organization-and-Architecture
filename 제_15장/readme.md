@@ -50,12 +50,35 @@
 <br/>
 <br/>
 
-## RISC의 큰 레지스터 파일의 사용
+## RISC의 큰 파일의 레지스터 사용
 
+- 소프트웨어 해결책
+  - 컴파일러가 레지스터의 사용 극대화
+  - 주어진 시간 내에 가장 많이 사용되는 변수들을 레지스터에 할당
+  - 정교한 프로그램 분석 알고리즘 사용
+- 하드웨어 해결책
+  - 더 많은 레지스터들
+  - 더 많은 변수들이 오랜 시간 동안 레지스터에 머무를 수 있게 만든다.
+ 
+<br/>
+<br/>
 
+## 중첩 레지스터 윈도우(Overlapping Registor Window)
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/fb2856c2-902b-4504-8a3c-5c62ffe757ce">
 
+<br/>
 
+### 중첩된 윈도우의 순환 버퍼 조직
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/133b2f8d-95db-44dd-8295-bdf4064c599f">
+
+<br/>
+<br/>
+
+## 전역 변수들(Global Variables)
+
+- 고급 언어에서 전역(global)로 선언된 변수들에게 컴파일러가 기억장치 내 장소들을 지정할 수 있고, 
 
 
 
