@@ -387,12 +387,25 @@
 
 ### 간략화된 ARM 조직
 
-*load/store*
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/3ad0e8ff-b938-47ac-b126-1bc9c1a6d7be">
 
+<br/>
 
+### 프로세서 모드들
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7f25df79-35d1-4b96-81c8-57e0461dd9ac">
 
+<br/>
 
+### 예외 모드들
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/52c944c6-2a59-4ff0-85d3-d65048a86b5f">
+
+<br/>
+
+### ARM CPSR 및 SPSR 형식
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/946227cb-71ff-47b1-ab84-6692dd7a3f5d">
 
 
 
