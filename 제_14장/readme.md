@@ -267,7 +267,43 @@
 > > 루프 버퍼는 명령어들을 순서대로만 저장한다. <br/>
 > > 용량이 작고 비용이 저렴하다.
 
+<br/>
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/2b0666b5-0aaa-4ff6-8f0d-dcbdc68f10d9">
+
+<br/>
+
+### 분기 예측
+
+- 분기가 이루어질 것인지 예측하는 데 사용되는 여러 가지 기술들
+  - 정적(static)인 방법들 : 조건 분기 명령어가 실행되는 시간까지의 실행 역사(execution history)에 의존하지 않음
+    - `Predict Never Taken`
+    - `Predict Always Taken`
+    - `Predict By Opcode`
+  - 동적(Dynamic)인 방법들 : 실행 역사에 의존
+    - `Taken/not taken switch)`
+    - `Branch History Table`
+
+ <br/>
+
+### 분기 예측 흐름도
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/c7f540ba-aa8d-42b1-92fb-2ff0fc87e559">
+
+<br/>
+
+### 분기 예측 상태 다이어그램
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/8b7d5cd7-5d47-4e4f-954d-0cebe8aa4ae3">
+
+<br/>
+
+### 분기의 처리
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bbb443bc-a390-49fd-9d1e-521ea3d90f3d">
+
+<br/>
+<br/>
 
 
 
