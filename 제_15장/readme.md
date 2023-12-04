@@ -157,12 +157,50 @@
 
 ### 파이프라이닝의 최적화
 
+> 성능 저하의 요인
+> > 1. data dependency
+> > 2. 불규칙성(branch, loop 등)
+
 - `지연된 분기(Delayed Branch)`
-   - 다음 명령어의 실행 
+   - 다음 명령어의 실행이 완료될 때까지는 영향을 주지 않는 분기의 이용
+   - 분기 바로 다음의 명령어는 지연 슬록(delay slot)이라고 불린다.
+ - `지연된 적재(Delayed Load)`
+   - 적재의 목표가 되는 레지스터는 CPU에 의해 lock된다.
+   - 레지스터를 필요로 하는 명령어를 만나면 CPU는 적재가 완료될 때까지 기다린다.
+   - 만약 컴파일러가 명령어를 재배열할 수 있어서 Load 명령어가 파이프라인 내에 있는 동안에 다른 유용한 작업이 처리될 수 있다면, 효율이 높아진다.
+ - `루프 언롤링(Loop Unrolling)` : 루프를 풀어 헤친다.
+   - 루프의 body를 언롤링 팩터(unrolling factor)라고 불리는 u번만큼 복제한다.
+   - 단계 u 반복
+   - *성능개선*
+     - 루프 오버헤드 줄임
+     - 파이프라인 성능을 개선하여, 명령어의 병렬성을 높임
+     - 레지스터, 데이터 캐시 or TLB의 지역성 개선
+    
+> loop 100번, 이하의 코드 실행시 <br/>
+> $A[i] = B[i] + C[i]$ <br/>
+> 다음과 같이 변경하면, loop 50번 실행 가능 <br/>
+> $A[2i] = B[2i] + C[2i]$ <br/>
+> $A[2i+1] =B[2i+1]+C[2i+1]$
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/6024dfa2-2b32-4788-a127-6eae729928f9">
+
+<br/>
+
+### 정상 및 지연된 분기
 
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bf917549-9459-4921-9217-fa5be488e7ed">
 
+<br/>
+<br/>
 
+## MIPS
+
+![KakaoTalk_20231204_180823141](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f141a4e4-ba72-4af4-b260-c4300b734e8e)
+![KakaoTalk_20231204_180847641](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/526a8f3f-35df-4acb-bf40-9d0c8582f991)
+![KakaoTalk_20231204_180914412](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/324ffbd1-b0fb-42d1-8bcb-08c98f75eeb5)
 
 
 
