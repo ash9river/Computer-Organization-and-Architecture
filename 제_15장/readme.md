@@ -219,15 +219,27 @@
 - 다른 제조 회사들도 SPARC-호환 프로세서들을 생산할 수 있도록 허가
 - Berkeley RISC 1 프로세서에 의해 계기가 되었으며, 명령어 세트와 레지스터 조직이 Berkeley RISC 모델에 바탕을 두고 있다.
 
+<br/>
+
+### 레지스터 윈도우 배치
+
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d6b53ddb-dcc0-407e-a110-af179d9b2e55">
 
 <br/>
+
+### 주소 지정 방식 및 명령어 포맷의 비교
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d2848e03-428b-4987-a6ef-b2a0aa8cb668">
 
 <br/>
 
+## RISC와 CISC 간의 논쟁
 
+- 양적 논쟁
+- 질적 논쟁
+
+> 하지만 엄격한 비교가 불가능하고, 현대에 이르러서는 RISC와 CISC가 상당히 비슷하게 구현된다. <br/>
+> RISC, CISC는 서로의 장점을 수용하여 논쟁의 의미가 없어졌다.
 
 
 
