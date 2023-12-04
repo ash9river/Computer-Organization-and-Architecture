@@ -210,7 +210,22 @@
 
 <br/>
 
+## SPARC
 
+> Scalable Processor Architecture
+
+- Java 회사에서 개발
+- Sun MicroSystems에 의해 정의된 구조(아키텍처)
+- 다른 제조 회사들도 SPARC-호환 프로세서들을 생산할 수 있도록 허가
+- Berkeley RISC 1 프로세서에 의해 계기가 되었으며, 명령어 세트와 레지스터 조직이 Berkeley RISC 모델에 바탕을 두고 있다.
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d6b53ddb-dcc0-407e-a110-af179d9b2e55">
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/d2848e03-428b-4987-a6ef-b2a0aa8cb668">
+
+<br/>
 
 
 
