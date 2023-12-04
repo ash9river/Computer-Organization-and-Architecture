@@ -198,9 +198,18 @@
 
 ## MIPS
 
-![KakaoTalk_20231204_180823141](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f141a4e4-ba72-4af4-b260-c4300b734e8e)
-![KakaoTalk_20231204_180847641](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/526a8f3f-35df-4acb-bf40-9d0c8582f991)
-![KakaoTalk_20231204_180914412](https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/324ffbd1-b0fb-42d1-8bcb-08c98f75eeb5)
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/f141a4e4-ba72-4af4-b260-c4300b734e8e">
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/526a8f3f-35df-4acb-bf40-9d0c8582f991">
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/324ffbd1-b0fb-42d1-8bcb-08c98f75eeb5">
+
+<br/>
+
 
 
 
