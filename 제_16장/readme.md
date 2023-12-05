@@ -44,9 +44,60 @@
 - `명령어-수준 병렬성(Instruction-level parallelisn)`
   - 프로그램의 명령어들이 병렬로 실행될 수 있는 정도(degree)를 의미한다.
   - 이 병렬성을 최대로 유지하기 위해서 *컴파일러* 에 의한 최적화와 하드웨어 기술이 혼합되어 사용될 수 있다.
-- *제약 조건들*
-  - `데이터 의존성(True data dependency)`
-  - `프로시저 의존성(Procedural dependency)`  
+- *제약 조건들* - *like pipeline hazard*
+  - `데이터 의존성(True data dependency)` : RAW
+  - `프로시저 의존성(Procedural dependency)` : if문 같은 branch
+  - `자원 충돌(Resource conflicts)`
+  - `출력 의존성(Output dependency)` : WAW
+  - `반의존성(Anti-dependency)` : WAR
+
+<br/>
+
+### 의존성 효과
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/9e53725a-feac-409d-a6df-28498ef8417a">
+
+<br/>
+
+## 명령어-수준 병렬성과 기계 병렬성(Instruction-Level Parallelism and Machine Parallelism)
+
+> 설계상의 주요 사항들
+
+- `명령어 수준 병렬성(Compiler단)`
+  - 일정한 순서로 나열된 명령어들이 서로 독립적이라서 중첩에 의해 병렬로 실행될 수 있는 경우에 존재
+- `기계 병렬성(Hardware)`
+  - 프로세서가 명령어-수준 병렬성을 활용활 수 있는 능력을 나타내는 척도
+
+> 💡 기계 병렬성은 동시에 인출하여 실행할 수 있는 명령어들의 수(병렬 파이프라인들의 수)와 프로세서가 독립적인 명령어들을 찾기 위하여 사용하는 매커지늠의 속도 및 복잡도(complexity)에 의해 결정된다.
+
+<br/>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
