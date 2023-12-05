@@ -73,10 +73,42 @@
 <br/>
 <br/>
 
+## 명령어 발송 정책(Instruction Issue Policy)
+
+- `명령어 발송`
+  - 프로세서의 기능 유닛에서 명령어 실행이 시작되도록 만드는 과정
+- `명령어 발송 정책`
+  - 명령어들을 발송하는데 필요한 프로토콜
+  - 명령어 발송은 명령어가 파이프라인의 해독 단계로부터 첫번째 실행 단계로 이동할 때 필요한 과정
+- 세 가지 유형의 순서 조정(orderings)이 중요하다.
+  - 명령어들이 인출되는 순서
+  - 명령어들이 **실행**되는 순서
+  - 명령어들이 **레지스터**와 기억장치의 내용을 갱신하는 순서
+- 슈퍼스칼라의 명령어 발송 정책들은 다음과 같이 구분한다.
+  - `순서대로 발송하고 순서대로 종료(in-order issue with in-order completion)`
+  - `순서대로 발송하고 순서와 다르게 종료(in-order issue with out-of-order completion)`
+  - `순서와 다르게 발송하고 순서와 다르게 종료(out-of-order issue with out-of-order completion)`
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/014e949c-0317-45f0-991d-a3d3da474ef8">
+
+<br/>
+
+<details>
+  <summary>Out-of-Order</summary>
 
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/63c0765b-5610-48d1-ba69-4fe8d6af5788">
 
+<br/>
 
+</details>
+
+<br/>
+<br/>
+
+## 레지스터 재명명(Registor Renaming)
 
 
 
