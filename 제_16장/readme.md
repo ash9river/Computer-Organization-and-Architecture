@@ -122,13 +122,43 @@
 
 <br/>
 
+## 분기 예측(Branch Prediction)
+
+- 고성능 파이프라인 프로세서에서는 분기를 처리하는 문제가 반드시 해결되어야 한다.
+- 인텔 80486은 분기의 다음에 위치한 명령어와 분기 목적지 명령어를 모두 인출함으로써 문제를 해결하였다.
+- RISC 기계들
+  - 지연 분기 정책 사용
+  - 프로세서는 항상 분기의 바로 다음 명령어를 실행한다.
+    - 프로세서가 새로운 명령어 흐름을 인출하는 동안에도 파이프라인이 채워져 있게 된다.
+- 슈퍼스칼라 기계들
+  - 지연 분기 방식이 별로 부각되지 못하게 됨
+  - 분기 예측에 있어서는 RISC 이전의 기술로 되돌아감
+
+<br/>
+<br/>
 
 
+## 슈퍼스칼라의 구현
 
+<br/>
 
+### 슈퍼스칼라 처리의 개념적 설명
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/effea1c7-347a-468e-b9dc-7c022c63750a">
 
+<br/>
 
+### Intel 예시
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/bb6925a0-4d89-4076-a9bd-cd111a042dee">
+
+<br/>
+
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/711230af-f6c5-41f5-b8dd-7393cd586850">
+
+<br/>
+
+<br/>
 
 
 
