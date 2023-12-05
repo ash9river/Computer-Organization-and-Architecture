@@ -1,14 +1,16 @@
 # 명령어 수준 병렬성과 슈퍼스칼라 프로세서
 
+> 명령어-수준 병렬성 : 소프트웨어(컴파일러) <br/>
+> 슈퍼스칼라 프로세서 : 하드웨어(component의 추가 사용) 
+> component : 기능블럭(ALU 등)
+
+<br/>
+
 > Multicore software : process 기반 <br/>
 > Superscalar : instruction 기반(vector 연산 최적화) <br/>
 > Scalar : 단일 변수
 
 <br/>
-
-> 명령어-수준 병렬성 : 소프트웨어(컴파일러) <br/>
-> 슈퍼스칼라 프로세서 : 하드웨어(component의 추가 사용) 
-> component : 기능블럭(ALU 등)
 
 ## 슈퍼스칼라
 
