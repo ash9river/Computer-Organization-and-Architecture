@@ -110,13 +110,17 @@
 
 ## 레지스터 재명명(Registor Renaming)
 
+> 출력 및 반의존성은 레지스터에 있는 값들이 프로그램 흐릉에 의해 결정되는 값들을 더 이상 반영하지 않기 때문에 발생한다.
+> > 파이프라인이 젛지되는 결과를 가져온다.
+> > > 레지스터들을 동적으로 할당하여 해결
 
+<br/>
 
+### 레지스터 재명명의 효과
 
+<img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/7eedb870-7046-49bd-8add-39dc7e226dd9">
 
-
-
-
+<br/>
 
 
 
