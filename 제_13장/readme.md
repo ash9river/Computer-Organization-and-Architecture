@@ -4,7 +4,7 @@
 ## 주소 지정 방식(Addressing Mode)
 
 1. `즉시(Immediate)`
-  - 명령어가 operand 포함
+    - 명령어가 operand 포함
 2. `직접(Direct)`
   - 명령어 주소 = operand 위치
 3. `간접(Indirect)`
