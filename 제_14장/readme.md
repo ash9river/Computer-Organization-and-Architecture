@@ -208,7 +208,7 @@
 
 ### 데이터 해저드의 유형들
 
-- `쓰기 후 읽기(Read After Read:RAW)` : 순수 의존성(True Dependency)
+- `쓰기 후 읽기(Read After Write:RAW)` : 순수 의존성(True Dependency)
   - 어떤 명령어가 레지스터 혹은 기억장치의 데이터를 수정하며, 그 다음 명령어는 그 기억장치 혹은 레지스터의 데이터를 읽는다.
   - 만약, 쓰기 동작이 완료되기 전에 읽기가 수행한다면, 해저드가 발생한다.
 - `읽기 후 쓰기(Write After Read:WAR)` : 반 의존성(Anti Dependency)
