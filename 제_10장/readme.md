@@ -318,6 +318,7 @@ $$
 
 ## 버림
 
+- 추후 수정
 ## 이진 부동-소수점 산술을 위한 IEEE 표준
 
 <img height="80%" width="80%" src="https://github.com/ash9river/Computer-Organization-and-Architecture/assets/121378532/691c0fc6-1c04-4f2c-924e-1ae9ca956f72">
